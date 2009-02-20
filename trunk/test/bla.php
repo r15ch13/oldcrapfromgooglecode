@@ -1,4 +1,0 @@
-<?php
-echo "bla";
-?>
-<pre>
