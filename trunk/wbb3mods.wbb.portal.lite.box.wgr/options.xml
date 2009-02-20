@@ -26,7 +26,6 @@
 		<option name="portal_wgr_ro_s"/>
 		<option name="portal_wgr_dk"/>
 		<option name="portal_wgr_dk_s"/>
-		<option name="portal_wgr_su"/>
 		<option name="portal_wgr_woskills"/>
 	</delete>
 	<import>
