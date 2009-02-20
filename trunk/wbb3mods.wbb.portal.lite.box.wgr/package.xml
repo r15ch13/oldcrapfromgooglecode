@@ -5,7 +5,7 @@
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.0.8</version>
+		<version>1.0.8</version><!-- bat:1.0.8:tab -->
 
 		<date>2009-02-20</date>
 	</packageinformation>

@@ -14,7 +14,7 @@
 		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Scegli questa opzione se stai cercando per le nuove classi.]]></item>
                 <item name="wcf.acp.option.portal_wgr_xx_s0"><![CDATA[Tutto]]></item>
 
-                <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Nascondi abilità.]]></item>
+                <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Nascondi abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
 
 		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Curatore]]></item>
@@ -25,7 +25,7 @@
                 <item name="wcf.acp.option.portal_wgr_dr"><![CDATA[Druido]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_wgr_dr_s.description"><![CDATA[Scegli uno, più o tutte le abilità]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s.description"><![CDATA[Scegli uno, pi&#249; o tutte le abilit&#224;]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s1"><![CDATA[Equilibrio]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s2"><![CDATA[Combattimento selvaggio]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s3"><![CDATA[Ristabilimento]]></item>
@@ -43,7 +43,7 @@
 		<item name="wcf.acp.option.portal_wgr_hu_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_hu_s.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_hu_s1"><![CDATA[Supremazia Animale]]></item>
-		<item name="wcf.acp.option.portal_wgr_hu_s2"><![CDATA[Abilità nel Tiro]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s2"><![CDATA[Abilit&#224; nel Tiro]]></item>
 		<item name="wcf.acp.option.portal_wgr_hu_s3"><![CDATA[Sopravvivenza]]></item>
 
 		<item name="wcf.acp.option.portal_wgr_wa"><![CDATA[Guerriero]]></item>
