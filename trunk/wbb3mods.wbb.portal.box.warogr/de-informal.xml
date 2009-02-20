@@ -2,13 +2,13 @@
 <!DOCTYPE language SYSTEM "DTD/language.dtd">
 <language languagecode="de-informal">
 	<category name="wbb.portal">
-		<item name="wbb.portal.box.warogr.title"><![CDATA[WAR Order Guild Recruitment]]></item>
+		<item name="wbb.portal.box.warogr.title"><![CDATA[WAR Ordnung Gilden Rekrutierung]]></item>
                 <item name="wbb.portal.box.warogr.title2"><![CDATA[Wir suchen:]]></item>
 		<item name="wbb.portal.box.warogr.message"><![CDATA[Zur Zeit suchen wir keine neuen Leute.]]></item>
 	</category>
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.portal.warogrbox.description"><![CDATA[W&auml;hle die gesuchten Klassen.]]></item>
-		<item name="wcf.acp.option.category.portal.warogrbox"><![CDATA[WAR Order Guild Recruitment]]></item>
+		<item name="wcf.acp.option.category.portal.warogrbox"><![CDATA[WAR Ordnung Gilden Rekrutierung]]></item>
 
 		<item name="wcf.acp.option.portal_warogr_offline"><![CDATA[Suchend?]]></item>
 		<item name="wcf.acp.option.portal_warogr_offline.description"><![CDATA[Aktiviere diese Option um die gesuchten Klassen ausw&auml;hlen zu k&ouml;nnen.]]></item>
