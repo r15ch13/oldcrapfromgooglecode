@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE portalbox SYSTEM "DTD/portalbox.dtd">
+<data>
+	<import>
+		<portalboxitem name="wgr">
+			<className>WGRBox</className>
+			<cacheBuilderClass></cacheBuilderClass>
+                        <boxType>2</boxType>
+			<useCache>0</useCache>
+			<sortOrder>1</sortOrder>
+			<boxActivation>1</boxActivation>
+		</portalboxitem>
+	</import>
+</data>

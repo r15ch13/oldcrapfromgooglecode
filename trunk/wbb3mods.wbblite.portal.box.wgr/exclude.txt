@@ -1,0 +1,5 @@
+*.svn*
+make.bat
+templates
+files
+exclude.txt
