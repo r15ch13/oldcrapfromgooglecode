@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="de">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.warogr.title"><![CDATA[WAR Ordnung Gilden Rekrutierung]]></item>
+                <item name="wbb.portal.box.warogr.title2"><![CDATA[Wir suchen:]]></item>
+		<item name="wbb.portal.box.warogr.message"><![CDATA[Zur Zeit suchen wir keine neuen Mitglieder.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.warogrbox.description"><![CDATA[W&auml;hlen Sie die gesuchten Klassen.]]></item>
+		<item name="wcf.acp.option.category.portal.warogrbox"><![CDATA[WAR Ordnung Gilden Rekrutierung]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_offline"><![CDATA[Suchend?]]></item>
+		<item name="wcf.acp.option.portal_warogr_offline.description"><![CDATA[Aktivieren Sie diese Option um die gesuchten Klassen ausw&auml;hlen zu k&ouml;nnen.]]></item>
+                <item name="wcf.acp.option.portal_warogr_xx_s0"><![CDATA[Alle]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_woskills"><![CDATA[Skillungen ausblenden.]]></item>
+		<item name="wcf.acp.option.portal_warogr_woskills.description"><![CDATA[]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_am"><![CDATA[Erzmagier]]></item>
+		<item name="wcf.acp.option.portal_warogr_am.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s.description"><![CDATA[W&auml;hle eine, mehrere oder alle Skillungen aus.]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s1"><![CDATA[Pfad der Isha]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s2"><![CDATA[Pfad des Asuryan]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s3"><![CDATA[Pfad des Vaul]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_bw"><![CDATA[Feuerzauberer]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s1"><![CDATA[Pfad der Ein&auml;scherung]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s2"><![CDATA[Pfad des Verzehrens]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s3"><![CDATA[Pfad der Feuersbrunst]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_en"><![CDATA[Maschinist]]></item>
+		<item name="wcf.acp.option.portal_warogr_en.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s1"><![CDATA[Pfad des Sch&uuml;tzes]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s2"><![CDATA[Pfad des Grenadiers]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s3"><![CDATA[Pfad des Bastlers]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_ib"><![CDATA[Eisenbrecher]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s1"><![CDATA[Pfad der Vergeltung]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s2"><![CDATA[Pfad des Steins]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s3"><![CDATA[Pfad der Bruderschaft]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_ks"><![CDATA[Ritter des S.]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s1"><![CDATA[Pfad der Eroberung]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s2"><![CDATA[Pfad der Wachsamkeit]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s3"><![CDATA[Pfad des Ruhms]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_rp"><![CDATA[Runenpriester]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s1"><![CDATA[Pfad von Grungni]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s2"><![CDATA[Pfad von Valaya]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s3"><![CDATA[Pfad von Grimnir]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_sm"><![CDATA[Schwertmeister]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s1"><![CDATA[Pfad des Khaine]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s2"><![CDATA[Pfad des Vaul]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s3"><![CDATA[Pfad des Hoeth]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_sw"><![CDATA[Schattenkrieg.]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s1"><![CDATA[Pfad des Sp&auml;hers]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s2"><![CDATA[Pfad des Ansturms]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s3"><![CDATA[Pfad des Pl&auml;nklers]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wh"><![CDATA[Hexenj&auml;ger]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s1"><![CDATA[Pfad der Beichte]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s2"><![CDATA[Pfad der Inquisition]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s3"><![CDATA[Pfad des Richtens]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wl"><![CDATA[Wei&szlig;er L&ouml;we]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s1"><![CDATA[Pfad des J&auml;gers]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s2"><![CDATA[Pfad des Axttr&auml;gers]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s3"><![CDATA[Pfad des W&auml;chters]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wp"><![CDATA[Sigmarpriester]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s1"><![CDATA[Pfad der Erl&ouml;sung]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s2"><![CDATA[Pfad der Gnade]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s3"><![CDATA[Pfad des Zorns]]></item>
+	</category>
+</language>
