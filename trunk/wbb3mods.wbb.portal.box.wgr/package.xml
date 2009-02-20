@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <package name="de.wbb3mods.wbb.portal.box.wgr">
+       <!-- $n$de.wbb3mods.wbb.portal.box.wgr# -->
 	<packageinformation>
 		<packageName>Portalbox WoW Guild Recruitment</packageName>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.0.8 pl 1</version><!-- bat:1.0.8pl1:tab -->
+		<version>1.0.8 pl 1</version>
+                <!-- $v$1.0.8pl1# -->
 
 		<date>2009-02-19</date>
 	</packageinformation>
