@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="it">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.warogr.title"><![CDATA[Reclutamento Gilda Ordine WAR]]></item>
+                <item name="wbb.portal.box.warogr.title2"><![CDATA[Cerca per:]]></item>
+		<item name="wbb.portal.box.warogr.message"><![CDATA[Non siamo alla ricerca di nuovi membri.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.warogrbox.description"><![CDATA[Hai bisogno di scegliere le classi.]]></item>
+		<item name="wcf.acp.option.category.portal.warogrbox"><![CDATA[Reclutamento Gilda Ordine WAR]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_offline"><![CDATA[Vuoi cercare?]]></item>
+		<item name="wcf.acp.option.portal_warogr_offline.description"><![CDATA[Scegli questa opzione se stai cercando per le nuove classi.]]></item>
+                <item name="wcf.acp.option.portal_warogr_xx_s0"><![CDATA[Tutto]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_woskills"><![CDATA[Nascondi abilità.]]></item>
+		<item name="wcf.acp.option.portal_warogr_woskills.description"><![CDATA[]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_am"><![CDATA[Arcomago]]></item>
+		<item name="wcf.acp.option.portal_warogr_am.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s.description"><![CDATA[Scegli uno, più o tutte le abilità.]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s1"><![CDATA[Isha]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s2"><![CDATA[Asuryan]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s3"><![CDATA[Vaul]]></item>
+
+                <item name="wcf.acp.option.portal_warogr_bw"><![CDATA[Mago brillante]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s1"><![CDATA[Incenerimento]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s2"><![CDATA[Sacrificio]]></item>
+		<item name="wcf.acp.option.portal_warogr_bw_s3"><![CDATA[Conflagrazione]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_en"><![CDATA[Ingegnere]]></item>
+		<item name="wcf.acp.option.portal_warogr_en.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s1"><![CDATA[Il Tiratore]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s2"><![CDATA[Granatiere]]></item>
+		<item name="wcf.acp.option.portal_warogr_en_s3"><![CDATA[Aggiustatore]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_ib"><![CDATA[Ironbreaker]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s1"><![CDATA[Vendetta]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s2"><![CDATA[Pietra]]></item>
+		<item name="wcf.acp.option.portal_warogr_ib_s3"><![CDATA[Fratellanza]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_ks"><![CDATA[Cavaliere otBS]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s1"><![CDATA[Conquista]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s2"><![CDATA[Sorveglianza]]></item>
+		<item name="wcf.acp.option.portal_warogr_ks_s3"><![CDATA[Gloria]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_rp"><![CDATA[Sacerdote della Runa]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s1"><![CDATA[Grungni]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s2"><![CDATA[Valaya]]></item>
+		<item name="wcf.acp.option.portal_warogr_rp_s3"><![CDATA[Grimnir]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_sm"><![CDATA[Maestro di Spada]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s1"><![CDATA[Khaine]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s2"><![CDATA[Vaul]]></item>
+		<item name="wcf.acp.option.portal_warogr_sm_s3"><![CDATA[Hoeth]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_sw"><![CDATA[Ombra del Guerriero.]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s1"><![CDATA[Esploratore]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s2"><![CDATA[Assalto/Attacco]]></item>
+		<item name="wcf.acp.option.portal_warogr_sw_s3"><![CDATA[Scaramuzza]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wh"><![CDATA[Cacciatore di Streghe]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s1"><![CDATA[Cacciatore di Streghe]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s2"><![CDATA[Inquisizione]]></item>
+		<item name="wcf.acp.option.portal_warogr_wh_s3"><![CDATA[Giudizio]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wl"><![CDATA[Leone Bianco]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s1"><![CDATA[Il Cacciatore]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s2"><![CDATA[Tagliatore di teste]]></item>
+		<item name="wcf.acp.option.portal_warogr_wl_s3"><![CDATA[Il Guardiano]]></item>
+
+		<item name="wcf.acp.option.portal_warogr_wp"><![CDATA[Guerriero Sacerdote]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s1"><![CDATA[Salvezza]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s2"><![CDATA[Benevolenza]]></item>
+		<item name="wcf.acp.option.portal_warogr_wp_s3"><![CDATA[Ira]]></item>
+	</category>
+</language>
