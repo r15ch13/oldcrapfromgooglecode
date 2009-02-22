@@ -33,5 +33,7 @@
 		<useroptions>useroptions.xml</useroptions>
 		<options>options.xml</options>
 	</instructions>
-
+	<instructions type="update" fromversion="1.0.8">
+		<languages languagecode="it">it.xml</languages>
+	</instructions>
 </package>
