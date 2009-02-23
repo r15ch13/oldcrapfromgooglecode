@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
-<package name="de.wbb3mods.wbb.portal.box.wardgr">
-       <!-- $n$de.wbb3mods.wbb.portal.box.wardgr# -->
+<package name="de.r15ch13.wbb.portal.box.wardgr">
+       <!-- $n$de.r15ch13.wbb.portal.box.wardgr# -->
 	<packageinformation>
 		<packageName>Portalbox WAR Destruction Guild Recruitment</packageName>
 		<standalone>0</standalone>
