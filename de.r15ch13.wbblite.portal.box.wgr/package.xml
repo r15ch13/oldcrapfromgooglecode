@@ -7,8 +7,8 @@
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.0.8</version>
-                <!-- $v$1.0.8# -->  
+		<version>1.0.0 pl 1</version>
+                <!-- $v$1.0.0pl1# -->  
 
 		<date>2009-02-20</date>
 	</packageinformation>
