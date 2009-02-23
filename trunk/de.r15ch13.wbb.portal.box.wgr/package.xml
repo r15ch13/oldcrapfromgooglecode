@@ -7,8 +7,8 @@
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.0.8 pl 1</version>
-                <!-- $v$1.0.8pl1# --> 
+		<version>1.0.9</version>
+                <!-- $v$1.0.9# -->
 
 		<date>2009-02-19</date>
 	</packageinformation>
@@ -32,18 +32,6 @@
 		<templates>templates.tar</templates>
 		<portalbox>portalbox.xml</portalbox>
 		<useroptions>useroptions.xml</useroptions>
-		<options>options.xml</options>
-	</instructions>
-	<instructions type="update" fromversion="1.0.8">
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-	</instructions>
-	<instructions type="update" fromversion="1.0.0">
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>
-                <files>files.tar</files>
-		<templates>templates.tar</templates>
 		<options>options.xml</options>
 	</instructions>
 </package>

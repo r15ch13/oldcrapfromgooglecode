@@ -14,13 +14,13 @@
 		<item name="wcf.acp.option.portal_warogr_offline.description"><![CDATA[Scegli questa opzione se stai cercando per le nuove classi.]]></item>
                 <item name="wcf.acp.option.portal_warogr_xx_s0"><![CDATA[Tutto]]></item>
 
-                <item name="wcf.acp.option.portal_warogr_woskills"><![CDATA[Nascondi abilità.]]></item>
+                <item name="wcf.acp.option.portal_warogr_woskills"><![CDATA[Nascondi abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_warogr_woskills.description"><![CDATA[]]></item>
 
                 <item name="wcf.acp.option.portal_warogr_am"><![CDATA[Arcomago]]></item>
 		<item name="wcf.acp.option.portal_warogr_am.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_warogr_am_s"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_warogr_am_s.description"><![CDATA[Scegli uno, più o tutte le abilità.]]></item>
+		<item name="wcf.acp.option.portal_warogr_am_s.description"><![CDATA[Scegli uno, pi&#249; o tutte le abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_warogr_am_s1"><![CDATA[Isha]]></item>
 		<item name="wcf.acp.option.portal_warogr_am_s2"><![CDATA[Asuryan]]></item>
 		<item name="wcf.acp.option.portal_warogr_am_s3"><![CDATA[Vaul]]></item>
