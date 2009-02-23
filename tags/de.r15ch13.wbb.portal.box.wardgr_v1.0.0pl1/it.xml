@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="it">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.wardgr.title"><![CDATA[Reclutamento Gilda Destruction WAR]]></item>
+                <item name="wbb.portal.box.wardgr.title2"><![CDATA[Cerca per:]]></item>
+		<item name="wbb.portal.box.wardgr.message"><![CDATA[Non siamo alla ricerca di nuovi membri]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.wardgrbox.description"><![CDATA[Hai bisogno di scegliere le classi.]]></item>
+		<item name="wcf.acp.option.category.portal.wardgrbox"><![CDATA[Reclutamento Gilda Destruction WAR]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_offline"><![CDATA[Vuoi cercare?]]></item>
+		<item name="wcf.acp.option.portal_wardgr_offline.description"><![CDATA[Scegli questa opzione se stai cercando per le nuove classi.]]></item>
+                <item name="wcf.acp.option.portal_wardgr_xx_s0"><![CDATA[Tutto]]></item>
+
+                <item name="wcf.acp.option.portal_wardgr_woskills"><![CDATA[Nascondi abilit&#224;.]]></item>
+		<item name="wcf.acp.option.portal_wardgr_woskills.description"><![CDATA[]]></item>
+
+                <item name="wcf.acp.option.portal_wardgr_bg"><![CDATA[Guardia Nera]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s.description"><![CDATA[Scegli uno, pi&#249; o tutte le abilit&#224;.]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s1"><![CDATA[Maligno]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s2"><![CDATA[Avversione]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s3"><![CDATA[Angoscia]]></item>
+
+                <item name="wcf.acp.option.portal_wardgr_bo"><![CDATA[Orco Nero]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s1"><![CDATA[Attaccabrighe]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s2"><![CDATA[Pi&#249; Duro]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s3"><![CDATA[Da&rsquo; Boss]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_ch"><![CDATA[Gli Eletti]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch_s1"><![CDATA[Paventato]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch_s2"><![CDATA[Corrotto]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ch_s3"><![CDATA[Discordia]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_dk"><![CDATA[Discepolo di K.]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk_s1"><![CDATA[Riti Oscuri]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk_s2"><![CDATA[Tortura]]></item>
+		<item name="wcf.acp.option.portal_wardgr_dk_s3"><![CDATA[Sacrificio]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_ma"><![CDATA[Predone]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s1"><![CDATA[Ferocia]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s2"><![CDATA[Brutalit&#224;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s3"><![CDATA[Monstruosit&#224;]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_mg"><![CDATA[Mago]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg_s1"><![CDATA[Devastazione]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg_s2"><![CDATA[Cambiamento]]></item>
+		<item name="wcf.acp.option.portal_wardgr_mg_s3"><![CDATA[Demonologia]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_sh"><![CDATA[Shamano]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh_s1"><![CDATA[Mork]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh_s2"><![CDATA[Gork]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sh_s3"><![CDATA[Da Verde]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_so"><![CDATA[Stregone]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s1"><![CDATA[Agonia]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s2"><![CDATA[Calamit&#224;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s3"><![CDATA[Distruzione]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_sq"><![CDATA[Pastore]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s1"><![CDATA[Grande Caccia&rsquo;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s2"><![CDATA[Pugnalata&rsquo;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s3"><![CDATA[Rapida Caccia&rsquo;]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_we"><![CDATA[Maga Elfa]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we_s1"><![CDATA[Carneficina]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we_s2"><![CDATA[Sofferenza]]></item>
+		<item name="wcf.acp.option.portal_wardgr_we_s3"><![CDATA[Tradimento]]></item>
+
+		<item name="wcf.acp.option.portal_wardgr_ze"><![CDATA[Zelatore]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze_s1"><![CDATA[Alchimia]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze_s2"><![CDATA[Incantesimo]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ze_s3"><![CDATA[Riti Oscuri]]></item>
+	</category>
+</language>
