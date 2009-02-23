@@ -14,13 +14,13 @@
 		<item name="wcf.acp.option.portal_wardgr_offline.description"><![CDATA[Scegli questa opzione se stai cercando per le nuove classi.]]></item>
                 <item name="wcf.acp.option.portal_wardgr_xx_s0"><![CDATA[Tutto]]></item>
 
-                <item name="wcf.acp.option.portal_wardgr_woskills"><![CDATA[Nascondi abilità.]]></item>
+                <item name="wcf.acp.option.portal_wardgr_woskills"><![CDATA[Nascondi abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_wardgr_woskills.description"><![CDATA[]]></item>
 
                 <item name="wcf.acp.option.portal_wardgr_bg"><![CDATA[Guardia Nera]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bg.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bg_s"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_wardgr_bg_s.description"><![CDATA[Scegli uno, più o tutte le abilità.]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bg_s.description"><![CDATA[Scegli uno, pi&#249; o tutte le abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bg_s1"><![CDATA[Maligno]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bg_s2"><![CDATA[Avversione]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bg_s3"><![CDATA[Angoscia]]></item>
@@ -30,8 +30,8 @@
 		<item name="wcf.acp.option.portal_wardgr_bo_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bo_s.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_bo_s1"><![CDATA[Attaccabrighe]]></item>
-		<item name="wcf.acp.option.portal_wardgr_bo_s2"><![CDATA[Più Duro]]></item>
-		<item name="wcf.acp.option.portal_wardgr_bo_s3"><![CDATA[Da' Boss]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s2"><![CDATA[Pi&#249; Duro]]></item>
+		<item name="wcf.acp.option.portal_wardgr_bo_s3"><![CDATA[Da&rsquo; Boss]]></item>
 
 		<item name="wcf.acp.option.portal_wardgr_ch"><![CDATA[Gli Eletti]]></item>
 		<item name="wcf.acp.option.portal_wardgr_ch.description"><![CDATA[]]></item>
@@ -54,8 +54,8 @@
 		<item name="wcf.acp.option.portal_wardgr_ma_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_ma_s.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_ma_s1"><![CDATA[Ferocia]]></item>
-		<item name="wcf.acp.option.portal_wardgr_ma_s2"><![CDATA[Brutalità]]></item>
-		<item name="wcf.acp.option.portal_wardgr_ma_s3"><![CDATA[Monstruosità]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s2"><![CDATA[Brutalit&#224;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_ma_s3"><![CDATA[Monstruosit&#224;]]></item>
 
 		<item name="wcf.acp.option.portal_wardgr_mg"><![CDATA[Mago]]></item>
 		<item name="wcf.acp.option.portal_wardgr_mg.description"><![CDATA[]]></item>
@@ -78,16 +78,16 @@
 		<item name="wcf.acp.option.portal_wardgr_so_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_so_s.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_so_s1"><![CDATA[Agonia]]></item>
-		<item name="wcf.acp.option.portal_wardgr_so_s2"><![CDATA[Calamità]]></item>
+		<item name="wcf.acp.option.portal_wardgr_so_s2"><![CDATA[Calamit&#224;]]></item>
 		<item name="wcf.acp.option.portal_wardgr_so_s3"><![CDATA[Distruzione]]></item>
 
 		<item name="wcf.acp.option.portal_wardgr_sq"><![CDATA[Pastore]]></item>
 		<item name="wcf.acp.option.portal_wardgr_sq.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_sq_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wardgr_sq_s.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_wardgr_sq_s1"><![CDATA[Grande Caccia']]></item>
-		<item name="wcf.acp.option.portal_wardgr_sq_s2"><![CDATA[Pugnalata']]></item>
-		<item name="wcf.acp.option.portal_wardgr_sq_s3"><![CDATA[Rapida Caccia']]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s1"><![CDATA[Grande Caccia&rsquo;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s2"><![CDATA[Pugnalata&rsquo;]]></item>
+		<item name="wcf.acp.option.portal_wardgr_sq_s3"><![CDATA[Rapida Caccia&rsquo;]]></item>
 
 		<item name="wcf.acp.option.portal_wardgr_we"><![CDATA[Maga Elfa]]></item>
 		<item name="wcf.acp.option.portal_wardgr_we.description"><![CDATA[]]></item>
