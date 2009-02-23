@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">       
+<package name="de.r15ch13.wbb.abload.upload">
+       <!-- $n$de.r15ch13.wbb.abload.upload# -->
+	<packageinformation>
+		<packagename>abload.de Upload Hack</packagename>
+		<packagedescription>Fuegt ein abload.de Bilder Uploadfeld hinzu</packagedescription>
+		<isunique>1</isunique>
+
+		<version>1.0.0</version>
+		<!-- $v$1.0.0# -->
+
+		<date>2009-02-23</date>
+		<plugin>com.woltlab.wcf</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author>r15ch13</author>
+		<authorurl>http://www.argon-prime.eu</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage>com.woltlab.wcf</requiredpackage>
+		<requiredpackage>com.woltlab.wcf.form.message.wysiwyg</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+   		<eventlistener>eventlistener.xml</eventlistener>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+</package>
