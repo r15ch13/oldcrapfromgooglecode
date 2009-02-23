@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
-<package name="de.wbb3mods.wbb.portal.box.wgr">
-       <!-- $n$de.wbb3mods.wbb.portal.box.wgr# -->
+<package name="de.r15ch13.wbb.portal.box.wgr">
+       <!-- $n$de.r15ch13.wbb.portal.box.wgr# -->
 	<packageinformation>
 		<packageName>Portalbox WoW Guild Recruitment</packageName>
 		<standalone>0</standalone>
