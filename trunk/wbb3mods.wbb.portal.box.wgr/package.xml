@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
 <package name="de.wbb3mods.wbb.portal.box.wgr">
        <!-- $n$de.wbb3mods.wbb.portal.box.wgr# -->
 	<packageinformation>
