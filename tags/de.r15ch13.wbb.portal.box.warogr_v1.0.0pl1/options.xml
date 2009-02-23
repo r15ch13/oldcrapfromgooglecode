@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<delete>
+		<option name="portal_warogr_offline"/>
+		<option name="portal_warogr_game"/>
+		<option name="portal_warogr_am"/>
+		<option name="portal_warogr_am_s"/>
+		<option name="portal_warogr_bw"/>
+		<option name="portal_warogr_bw_s"/>
+		<option name="portal_warogr_en"/>
+		<option name="portal_warogr_en_s"/>
+		<option name="portal_warogr_ib"/>
+		<option name="portal_warogr_ib_s"/>
+		<option name="portal_warogr_ks"/>
+		<option name="portal_warogr_ks_s"/>
+		<option name="portal_warogr_rp"/>
+		<option name="portal_warogr_rp_s"/>
+		<option name="portal_warogr_sm"/>
+		<option name="portal_warogr_sm_s"/>
+		<option name="portal_warogr_sw"/>
+		<option name="portal_warogr_sw_s"/>
+		<option name="portal_warogr_wh"/>
+		<option name="portal_warogr_wh_s"/>
+		<option name="portal_warogr_wl"/>
+		<option name="portal_warogr_wl_s"/>
+		<option name="portal_warogr_wp"/>
+		<option name="portal_warogr_wp_s"/>
+		<option name="portal_warogr_woskills"/>
+	</delete>
+	<import>
+		<categories>
+			<category name="portal.warogrbox">
+				<parent>portal</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="portal_warogr_offline">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<enableoptions><![CDATA[portal_warogr_woskills,portal_warogr_am,portal_warogr_bw,portal_warogr_en,portal_warogr_ib,portal_warogr_ks,portal_warogr_rp,portal_warogr_sm,portal_warogr_sw,portal_warogr_wh,portal_warogr_wl,portal_warogr_wp]]></enableoptions>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			
+			<option name="portal_warogr_woskills">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+
+			<option name="portal_warogr_am">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_am_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_am_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_am_s1
+2:wcf.acp.option.portal_warogr_am_s2
+3:wcf.acp.option.portal_warogr_am_s3]]></selectoptions>
+			</option>
+
+
+
+			<option name="portal_warogr_bw">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_bw_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_bw_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_bw_s1
+2:wcf.acp.option.portal_warogr_bw_s2
+3:wcf.acp.option.portal_warogr_bw_s3
+                                ]]></selectoptions>
+			</option>
+
+
+
+			<option name="portal_warogr_en">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_en_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_en_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_en_s1
+2:wcf.acp.option.portal_warogr_en_s2
+3:wcf.acp.option.portal_warogr_en_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_ib">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_ib_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_ib_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_ib_s1
+2:wcf.acp.option.portal_warogr_ib_s2
+3:wcf.acp.option.portal_warogr_ib_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_ks">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_ks_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_ks_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_ks_s1
+2:wcf.acp.option.portal_warogr_ks_s2
+3:wcf.acp.option.portal_warogr_ks_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_rp">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_rp_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_rp_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_rp_s1
+2:wcf.acp.option.portal_warogr_rp_s2
+3:wcf.acp.option.portal_warogr_rp_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_sm">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_sm_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_sm_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_sm_s1
+2:wcf.acp.option.portal_warogr_sm_s2
+3:wcf.acp.option.portal_warogr_sm_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_sw">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_sw_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_sw_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_sw_s1
+2:wcf.acp.option.portal_warogr_sw_s2
+3:wcf.acp.option.portal_warogr_sw_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_wh">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_wh_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_wh_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_wh_s1
+2:wcf.acp.option.portal_warogr_wh_s2
+3:wcf.acp.option.portal_warogr_wh_s3
+                                ]]></selectoptions>
+			</option>
+
+
+			<option name="portal_warogr_wl">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_wl_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_wl_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_wl_s1
+2:wcf.acp.option.portal_warogr_wl_s2
+3:wcf.acp.option.portal_warogr_wl_s3
+                                ]]></selectoptions>
+			</option>
+			
+
+			<option name="portal_warogr_wp">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_warogr_wp_s]]></enableoptions>
+			</option>
+			<option name="portal_warogr_wp_s">
+				<categoryname>portal.warogrbox</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.acp.option.portal_warogr_xx_s0
+1:wcf.acp.option.portal_warogr_wp_s1
+2:wcf.acp.option.portal_warogr_wp_s2
+3:wcf.acp.option.portal_warogr_wp_s3
+                                ]]></selectoptions>
+			</option>
+
+		</options>
+	</import>
+</data>
