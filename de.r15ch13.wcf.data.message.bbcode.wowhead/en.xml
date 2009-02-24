@@ -2,7 +2,7 @@
 <!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
 <language languagecode="en">
 	<category name="wcf.bbcode">
-		<item name="wcf.bbcode.wow.title"><![CDATA[Insert Item- & Spelllinks from wowhead.com]]></item>
+		<item name="wcf.bbcode.wow.title"><![CDATA[Insert Item- & Spelllinks from www.wowhead.com]]></item>
 		<item name="wcf.bbcode.wow.suffix"><![CDATA[en]]></item>
 	</category>
 </language>
