@@ -2,13 +2,13 @@
 <!DOCTYPE language SYSTEM "DTD/language.dtd">
 <language languagecode="de">
 	<category name="wbb.portal">
-		<item name="wbb.portal.box.wgr.title"><![CDATA[WoW Guild Recruitment]]></item>
+		<item name="wbb.portal.box.wgr.title"><![CDATA[WoW Gilden Rekrutierung]]></item>
                 <item name="wbb.portal.box.wgr.title2"><![CDATA[Wir suchen:]]></item>
 		<item name="wbb.portal.box.wgr.message"><![CDATA[Zur Zeit suchen wir keine neuen Mitglieder.]]></item>
 	</category>
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[W&auml;hlen Sie die gesuchten Klassen.]]></item>
-		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Guild Recruitment]]></item>
+		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Gilden Rekrutierung]]></item>
 
 		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Suchend?]]></item>
 		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Aktivieren Sie diese Option um die gesuchten Klassen ausw&auml;hlen zu k&ouml;nnen.]]></item>
@@ -16,6 +16,13 @@
 
                 <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Skillungen ausblenden.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Klassenfarbe ausblenden.]]></item>
+		<item name="wcf.acp.option.portal_wgr_clcolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Hintergrundfarbe &auml;ndern.]]></item>
+		<item name="wcf.acp.option.portal_wgr_ccolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ucolor.description"><![CDATA[z.B. #D8D8D8]]></item>
+
 
 		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Heiler]]></item>
 		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[]]></item>

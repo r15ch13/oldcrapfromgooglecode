@@ -27,6 +27,9 @@
 		<option name="portal_wgr_dk"/>
 		<option name="portal_wgr_dk_s"/>
 		<option name="portal_wgr_woskills"/>
+		<option name="portal_wgr_clcolor"/>
+		<option name="portal_wgr_ccolor"/>
+		<option name="portal_wgr_ucolor"/>
 	</delete>
 	<import>
 		<categories>
@@ -38,15 +41,31 @@
 			<option name="portal_wgr_offline">
 				<categoryname>portal.wgrbox</categoryname>
 				<optiontype>boolean</optiontype>
-				<enableoptions><![CDATA[portal_wgr_woskills,portal_wgr_he,portal_wgr_ta,portal_wgr_dr,portal_wgr_wl,portal_wgr_hu,portal_wgr_wa,portal_wgr_ma,portal_wgr_pa,portal_wgr_pr,portal_wgr_sa,portal_wgr_ro,portal_wgr_dk]]></enableoptions>
+				<enableoptions><![CDATA[portal_wgr_clcolor,portal_wgr_ucolor,portal_wgr_ccolor,portal_wgr_woskills,portal_wgr_he,portal_wgr_ta,portal_wgr_dr,portal_wgr_wl,portal_wgr_hu,portal_wgr_wa,portal_wgr_ma,portal_wgr_pa,portal_wgr_pr,portal_wgr_sa,portal_wgr_ro,portal_wgr_dk]]></enableoptions>
 				<defaultvalue>0</defaultvalue>
 			</option>
-			
+
 			<option name="portal_wgr_woskills">
 				<categoryname>portal.wgrbox</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 			</option>
+			<option name="portal_wgr_clcolor">
+				<categoryname>portal.wgrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="portal_wgr_ccolor">
+				<categoryname>portal.wgrbox</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<enableoptions><![CDATA[portal_wgr_ucolor]]></enableoptions>
+			</option>
+			<option name="portal_wgr_ucolor">
+				<categoryname>portal.wgrbox</categoryname>
+				<optiontype>text</optiontype>
+			</option>
+
 
 			<option name="portal_wgr_he">
 				<categoryname>portal.wgrbox</categoryname>
@@ -58,9 +77,8 @@
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 			</option>
-			
 
-			
+
 			<option name="portal_wgr_dr">
 				<categoryname>portal.wgrbox</categoryname>
 				<optiontype>boolean</optiontype>
