@@ -16,6 +16,13 @@
 
                 <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Hide skills.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Hide class color.]]></item>
+		<item name="wcf.acp.option.portal_wgr_clcolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Change backgroundcolor.]]></item>
+		<item name="wcf.acp.option.portal_wgr_ccolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ucolor.description"><![CDATA[e.g. #D8D8D8]]></item>
+
 
 		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Healer]]></item>
 		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[]]></item>

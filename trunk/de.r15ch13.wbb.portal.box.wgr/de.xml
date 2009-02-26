@@ -16,6 +16,13 @@
 
                 <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Skillungen ausblenden.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Klassenfarbe ausblenden.]]></item>
+		<item name="wcf.acp.option.portal_wgr_clcolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Hintergrundfarbe &auml;ndern.]]></item>
+		<item name="wcf.acp.option.portal_wgr_ccolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ucolor.description"><![CDATA[z.B. #D8D8D8]]></item>
+
 
 		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Heiler]]></item>
 		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[]]></item>
