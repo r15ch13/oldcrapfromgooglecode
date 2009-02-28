@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="en">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.wgr.title"><![CDATA[WoW Guild Recruitment]]></item>
+                <item name="wbb.portal.box.wgr.title2"><![CDATA[Searching for:]]></item>
+		<item name="wbb.portal.box.wgr.message"><![CDATA[We are not searching for new member.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[Choose the needed classes.]]></item>
+		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Guild Recruitment]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Searching?]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Choose this option if you are searching for new classes.]]></item>
+                <item name="wcf.acp.option.portal_wgr_xx_s0"><![CDATA[Alle]]></item>
+
+                <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Hide skills.]]></item>
+		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Hide class color.]]></item>
+		<item name="wcf.acp.option.portal_wgr_clcolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Change backgroundcolor.]]></item>
+		<item name="wcf.acp.option.portal_wgr_ccolor.description"><![CDATA[]]></item>
+                <item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ucolor.description"><![CDATA[e.g. #D8D8D8]]></item>
+
+
+		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Healer]]></item>
+		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ta"><![CDATA[Tanks]]></item>
+		<item name="wcf.acp.option.portal_wgr_ta.description"><![CDATA[]]></item>
+
+                <item name="wcf.acp.option.portal_wgr_dr"><![CDATA[Druid]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s.description"><![CDATA[Choose one, more or all skills.]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s1"><![CDATA[Balance]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s2"><![CDATA[Feral Combat]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s3"><![CDATA[Restoration]]></item>
+
+                <item name="wcf.acp.option.portal_wgr_wl"><![CDATA[Warlock]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl_s1"><![CDATA[Affliction]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl_s2"><![CDATA[Demonology]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl_s3"><![CDATA[Destruction]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_hu"><![CDATA[Hunter]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s1"><![CDATA[Beast Mastery]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s2"><![CDATA[Marksmanship]]></item>
+		<item name="wcf.acp.option.portal_wgr_hu_s3"><![CDATA[Survival]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_wa"><![CDATA[Warrior]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa_s1"><![CDATA[Arms]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa_s2"><![CDATA[Fury]]></item>
+		<item name="wcf.acp.option.portal_wgr_wa_s3"><![CDATA[Protection]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_ma"><![CDATA[Mage]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma_s1"><![CDATA[Arcane]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma_s2"><![CDATA[Fire]]></item>
+		<item name="wcf.acp.option.portal_wgr_ma_s3"><![CDATA[Frost]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_pa"><![CDATA[Paladin]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa_s1"><![CDATA[Holy]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa_s2"><![CDATA[Protection]]></item>
+		<item name="wcf.acp.option.portal_wgr_pa_s3"><![CDATA[Retribution]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_pr"><![CDATA[Priest]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr_s1"><![CDATA[Discipline]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr_s2"><![CDATA[Holy]]></item>
+		<item name="wcf.acp.option.portal_wgr_pr_s3"><![CDATA[Shadow]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_sa"><![CDATA[Shaman]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa_s1"><![CDATA[Elemental]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa_s2"><![CDATA[Enhancement]]></item>
+		<item name="wcf.acp.option.portal_wgr_sa_s3"><![CDATA[Restoration]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_ro"><![CDATA[Rogue]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro_s1"><![CDATA[Assassination]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro_s2"><![CDATA[Combat]]></item>
+		<item name="wcf.acp.option.portal_wgr_ro_s3"><![CDATA[Subtlety]]></item>
+
+		<item name="wcf.acp.option.portal_wgr_dk"><![CDATA[Deathknight]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk_s"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk_s.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk_s1"><![CDATA[Blood]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk_s2"><![CDATA[Frost]]></item>
+		<item name="wcf.acp.option.portal_wgr_dk_s3"><![CDATA[Unholy]]></item>
+	</category>
+</language>
