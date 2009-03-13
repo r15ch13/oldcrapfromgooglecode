@@ -7,10 +7,10 @@
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.1.0</version>
-		<!-- $v$1.1.0# -->
+		<version>1.1.1</version>
+		<!-- $v$1.1.1# -->
 
-		<date>2009-02-26</date>
+		<date>2009-03-13</date>
 	</packageinformation>
 
 	<authorinformation>
@@ -42,5 +42,8 @@
                 <files>files.tar</files>
 		<templates>templates.tar</templates>
 		<options>options.xml</options>
+	</instructions>
+	<instructions type="update" fromversion="1.1.0">
+		<templates>templates.tar</templates>
 	</instructions>
 </package>
