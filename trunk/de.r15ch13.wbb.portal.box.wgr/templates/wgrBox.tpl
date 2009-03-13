@@ -22,14 +22,16 @@
                 <img src="icon/wow/dr/3.gif" alt="dr" title="{lang}wcf.acp.option.portal_wgr_dr_s3{/lang}" width="16" height="16" />
                 <img src="icon/wow/pa/1.gif" alt="pa" title="{lang}wcf.acp.option.portal_wgr_pa_s1{/lang}" width="16" height="16" />
                 <img src="icon/wow/sa/3.gif" alt="sa" title="{lang}wcf.acp.option.portal_wgr_sa_s3{/lang}" width="16" height="16" />
-                <img src="icon/wow/pr/2.gif" alt="pr" title="{lang}wcf.acp.option.portal_wgr_pr_s2{/lang}" width="16" height="16" />
+                <img src="icon/wow/pr/1.gif" alt="pr" title="{lang}wcf.acp.option.portal_wgr_pr_s1{/lang}" width="16" height="16" />
                 </td><td class="smallFont"{if PORTAL_WGR_CCOLOR == true} style="background-color:{PORTAL_WGR_UCOLOR};"{/if}>{lang}wcf.acp.option.portal_wgr_he{/lang}</td></tr>
               {/if}
               {if PORTAL_WGR_TA == true}<tr><td{if PORTAL_WGR_CCOLOR == true} style="background-color:{PORTAL_WGR_UCOLOR};"{/if}{if PORTAL_WGR_WOSKILLS == false} colspan="2"{/if}>
                 <img src="icon/wow/wa/class.png" alt="wa" title="{lang}wcf.acp.option.portal_wgr_wa{/lang}" width="16" height="16" />
+                <img src="icon/wow/pa/class.png" alt="pa" title="{lang}wcf.acp.option.portal_wgr_pa{/lang}" width="16" height="16" />
                 <img src="icon/wow/dk/class.png" alt="dk" title="{lang}wcf.acp.option.portal_wgr_dk{/lang}" width="16" height="16" />
                 <img src="icon/wow/dr/class.png" alt="dr" title="{lang}wcf.acp.option.portal_wgr_dr{/lang}" width="16" height="16" /><br />
                 <img src="icon/wow/wa/3.gif" alt="wa" title="{lang}wcf.acp.option.portal_wgr_wa_s3{/lang}" width="16" height="16" />
+                <img src="icon/wow/pa/2.gif" alt="pa" title="{lang}wcf.acp.option.portal_wgr_pa_s2{/lang}" width="16" height="16" />
                 <img src="icon/wow/dk/2.gif" alt="dk" title="{lang}wcf.acp.option.portal_wgr_dk_s2{/lang}" width="16" height="16" />
                 <img src="icon/wow/dr/2.gif" alt="dr" title="{lang}wcf.acp.option.portal_wgr_dr_s2{/lang}" width="16" height="16" />
                 </td><td class="smallFont"{if PORTAL_WGR_CCOLOR == true} style="background-color:{PORTAL_WGR_UCOLOR};"{/if}>{lang}wcf.acp.option.portal_wgr_ta{/lang}</td></tr>
