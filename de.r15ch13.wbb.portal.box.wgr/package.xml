@@ -3,13 +3,13 @@
 <package name="de.r15ch13.wbb.portal.box.wgr">
        <!-- $n$de.r15ch13.wbb.portal.box.wgr# -->
 	<packageinformation>
-		<packageName>Portalbox WoW Guild Recruitment</packageName>
+		<packagename>Portalbox WoW Guild Recruitment</packagename>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
 		<version>1.1.1</version>
 		<!-- $v$1.1.1# -->
-
+				<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>
 		<date>2009-03-14</date>
 	</packageinformation>
 
