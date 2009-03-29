@@ -8,8 +8,8 @@
 		<plugin>com.woltlab.wbb</plugin>
 
 		<version>1.0.2</version>
-                <!-- $v$1.0.2# -->
-
+		<!-- $v$1.0.2# -->
+				<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>
 		<date>2009-03-14</date>
 	</packageinformation>
 
