@@ -11,8 +11,8 @@ class WGRBox {
 		
 		
 		// read cache
-		WCF::getCache()->addResource('wgrOptions', WCF_DIR.'cache/cache.wgrOptions.php', WCF_DIR.'lib/system/cache/CacheBuilderWGROptions.class.php');
-		WCF::getCache()->addResource('wgrClasses', WCF_DIR.'cache/cache.wgrClasses.php', WCF_DIR.'lib/system/cache/CacheBuilderWGRClasses.class.php');
+		WCF::getCache()->addResource('wgrOptions', WBB_DIR.'cache/cache.wgrOptions.php', WBB_DIR.'lib/system/cache/CacheBuilderWGROptions.class.php');
+		WCF::getCache()->addResource('wgrClasses', WBB_DIR.'cache/cache.wgrClasses.php', WBB_DIR.'lib/system/cache/CacheBuilderWGRClasses.class.php');
 		
 		$this->optionsCache = WCF::getCache()->get('wgrOptions');
 		$this->classesCache = WCF::getCache()->get('wgrClasses');

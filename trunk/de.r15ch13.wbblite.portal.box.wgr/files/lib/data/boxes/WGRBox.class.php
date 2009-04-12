@@ -7,16 +7,45 @@ class WGRBox {
 		$this->wgrList['templatename'] = "wgrBox";
 		$this->getBoxStatus($data);
 		$this->wgrList['boxID'] = $data['boxID'];
-                $this->wgrList['debug'] = true;
+		$this->wgrList['debug'] = false;
+		
+		
+		// read cache
+		WCF::getCache()->addResource('wgrOptions', WBB_DIR.'cache/cache.wgrOptions.php', WBB_DIR.'lib/system/cache/CacheBuilderWGROptions.class.php');
+		WCF::getCache()->addResource('wgrClasses', WBB_DIR.'cache/cache.wgrClasses.php', WBB_DIR.'lib/system/cache/CacheBuilderWGRClasses.class.php');
+		
+		$this->optionsCache = WCF::getCache()->get('wgrOptions');
+		$this->classesCache = WCF::getCache()->get('wgrClasses');
+		
+		$this->readOptions();
+		$this->readClasses();
+		$this->wgrList['options'] = $this->options;
+		$this->wgrList['classes'] = $this->classes;
 
-                $data['class'] = array('dr'=>'dr', 'wl'=>'wl', 'hu'=>'hu', 'wa'=>'wa', 'ma'=>'ma', 'pa'=>'pa', 'pr'=>'pr', 'sa'=>'sa', 'ro'=>'ro', 'dk'=>'dk');
-                $data['skill'] = array('dr'=>explode("\n", PORTAL_WGR_DR_S),'wl'=>explode("\n", PORTAL_WGR_WL_S),'hu'=>explode("\n", PORTAL_WGR_HU_S),'wa'=>explode("\n", PORTAL_WGR_WA_S),'ma'=>explode("\n", PORTAL_WGR_MA_S),'pa'=>explode("\n", PORTAL_WGR_PA_S),'pr'=>explode("\n", PORTAL_WGR_PR_S),'sa'=>explode("\n", PORTAL_WGR_SA_S),'ro'=>explode("\n", PORTAL_WGR_RO_S),'dk'=>explode("\n", PORTAL_WGR_DK_S));
-                $data['onoff'] = array('dr'=>PORTAL_WGR_DR,'wl'=>PORTAL_WGR_WL,'hu'=>PORTAL_WGR_HU,'wa'=>PORTAL_WGR_WA,'ma'=>PORTAL_WGR_MA,'pa'=>PORTAL_WGR_PA,'pr'=>PORTAL_WGR_PR,'sa'=>PORTAL_WGR_SA,'ro'=>PORTAL_WGR_RO,'dk'=>PORTAL_WGR_DK);
-                $data['color'] = array('dr'=>'#FF7D0A', 'wl'=>'#9482C9', 'hu'=>'#ABD473', 'wa'=>'#C79C6E', 'ma'=>'#69CCF0', 'pa'=>'#F58CBA', 'pr'=>'#FFFFFF', 'sa'=>'#2459FF', 'ro'=>'#FFF569', 'dk'=>'#C41F3B');
-                $this->wgrList['data'] = $data;
-        }
-
-        protected function getBoxStatus($data) {
+		foreach($this->classes as $value) {
+			$check[] = $value['class_onoff_1'];
+			$check[].= $value['class_onoff_2'];
+			$check[].= $value['class_onoff_3'];
+		}
+		$this->wgrList['activ'] = in_array(1, $check) ? true : false;
+		
+	}
+	
+	// reads options
+	protected function readOptions() {
+		foreach ($this->optionsCache as $optionsData) {
+			$this->options[$optionsData['option_name']] = $optionsData;			
+		}
+	}
+	
+	// reads classes
+	protected function readClasses() {
+		foreach ($this->classesCache as $classesData) {
+			$this->classes[] = $classesData;
+		}
+	}
+		
+	protected function getBoxStatus($data) {
 		$this->wgrList['Status'] = 1;
 		if (WBBCore::getUser()->userID) {
 			$this->wgrList['Status'] = intval(WBBCore::getUser()->wgrbox);
