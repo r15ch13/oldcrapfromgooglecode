@@ -8,10 +8,12 @@
 		<plugin>com.woltlab.wbb</plugin>
 
 		<date>2009-04-12</date>
-		<version>1.2.0</version>
-		<!-- $v$1.2.0# -->
-		
-		<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>		
+		<version>1.2.0 pl 1</version>
+		<!-- $v$1.2.0pl1# -->
+
+		<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>
+		<packagedescription languagecode="en">This Portalbox indicates which classes are wanted for the success of your own World of Warcaft Guild.</packagedescription>
+		<packagedescription languagecode="it">Questo Portalbox indica le classi che hai per il successo del proprio World of Guild Warcaft richiesto.</packagedescription>
 	</packageinformation>
 
 	<authorinformation>
@@ -28,6 +30,7 @@
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="it">it.xml</languages>
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 		<acptemplates>acptemplates.tar</acptemplates>
@@ -36,5 +39,9 @@
 		<useroptions>useroptions.xml</useroptions>
 		<groupoptions>groupoptions.xml</groupoptions>
 		<sql>install.sql</sql>
+	</instructions>
+
+	<instructions type="update" fromversion="1.2.0">
+		<languages languagecode="it">it.xml</languages>
 	</instructions>
 </package>
