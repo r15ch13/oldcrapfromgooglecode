@@ -3,41 +3,49 @@
 <language languagecode="en">
 	<category name="wbb.portal">
 		<item name="wbb.portal.box.wgr.title"><![CDATA[WoW Guild Recruitment]]></item>
-                <item name="wbb.portal.box.wgr.title2"><![CDATA[Searching for:]]></item>
+		<item name="wbb.portal.box.wgr.title2"><![CDATA[Looking for:]]></item>
+		<item name="wbb.portal.box.wgr.title3"><![CDATA[Click here to see more details.]]></item>
 		<item name="wbb.portal.box.wgr.message"><![CDATA[We are not searching for new member.]]></item>
 	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.wgr.manage"><![CDATA[Edit Recruitment]]></item>	
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.portal"><![CDATA[Portal]]></item>
+		<item name="wcf.acp.group.option.category.user.portal.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.portal.canEditRecruitment"><![CDATA[Can Edit WoW Recruitment]]></item>
+		<item name="wcf.acp.group.option.user.portal.canEditRecruitment.description"><![CDATA[Members of this Usergroup can edit the WoW Recruitment Portalbox.]]></item>
+	</category>
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[Choose the needed classes.]]></item>
 		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Guild Recruitment]]></item>
+		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[Choose the needed classes.]]></item>
 
-		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Searching?]]></item>
-		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Choose this option if you are searching for new classes.]]></item>
-                <item name="wcf.acp.option.portal_wgr_xx_s0"><![CDATA[Alle]]></item>
-
-                <item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Hide skills.]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Deactivate Box?]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Choose this option to show the wanted classes.]]></item>
+		<item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Deactivate skills.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
-                <item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Hide class color.]]></item>
+		<item name="wcf.acp.option.portal_wgr_clcolor"><![CDATA[Deactivate class color.]]></item>
 		<item name="wcf.acp.option.portal_wgr_clcolor.description"><![CDATA[]]></item>
-                <item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Change backgroundcolor.]]></item>
+		<item name="wcf.acp.option.portal_wgr_detail"><![CDATA[Activate details.]]></item>
+		<item name="wcf.acp.option.portal_wgr_detail.description"><![CDATA[By disabling the selection menus become useless.]]></item>
+		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Show healer.]]></item>
+		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[Healer]]></item>
+		<item name="wcf.acp.option.portal_wgr_ta"><![CDATA[Show tanks.]]></item>
+		<item name="wcf.acp.option.portal_wgr_ta.description"><![CDATA[Tanks]]></item>
+		<item name="wcf.acp.option.portal_wgr_ccolor"><![CDATA[Change backgroundcolor.]]></item>
 		<item name="wcf.acp.option.portal_wgr_ccolor.description"><![CDATA[]]></item>
-                <item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
+		<item name="wcf.acp.option.portal_wgr_ucolor"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_ucolor.description"><![CDATA[e.g. #D8D8D8]]></item>
 
-
-		<item name="wcf.acp.option.portal_wgr_he"><![CDATA[Healer]]></item>
-		<item name="wcf.acp.option.portal_wgr_he.description"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_wgr_ta"><![CDATA[Tanks]]></item>
-		<item name="wcf.acp.option.portal_wgr_ta.description"><![CDATA[]]></item>
-
-                <item name="wcf.acp.option.portal_wgr_dr"><![CDATA[Druid]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr"><![CDATA[Druid]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s"><![CDATA[]]></item>
-		<item name="wcf.acp.option.portal_wgr_dr_s.description"><![CDATA[Choose one, more or all skills.]]></item>
+		<item name="wcf.acp.option.portal_wgr_dr_s.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s1"><![CDATA[Balance]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s2"><![CDATA[Feral Combat]]></item>
 		<item name="wcf.acp.option.portal_wgr_dr_s3"><![CDATA[Restoration]]></item>
 
-                <item name="wcf.acp.option.portal_wgr_wl"><![CDATA[Warlock]]></item>
+		<item name="wcf.acp.option.portal_wgr_wl"><![CDATA[Warlock]]></item>
 		<item name="wcf.acp.option.portal_wgr_wl.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_wl_s"><![CDATA[]]></item>
 		<item name="wcf.acp.option.portal_wgr_wl_s.description"><![CDATA[]]></item>
