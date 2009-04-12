@@ -1,21 +1,22 @@
 <?xml version="1.0"?>
 <!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
 <package name="de.r15ch13.wbblite.portal.box.wgr">
-       <!-- $n$de.r15ch13.wbblite.portal.box.wgr# -->
+	<!-- $n$de.r15ch13.wbblite.portal.box.wgr# -->
 	<packageinformation>
-		<packageName>Portalbox WoW Guild Recruitment (WBB Lite)</packageName>
+		<packagename>Portalbox WoW Guild Recruitment (WBB Lite)</packagename>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wbb</plugin>
 
-		<version>1.0.2</version>
-		<!-- $v$1.0.2# -->
-				<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>
-		<date>2009-03-14</date>
+		<date>2009-04-12</date>
+		<version>1.2.0</version>
+		<!-- $v$1.2.0# -->
+		
+		<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>		
 	</packageinformation>
 
 	<authorinformation>
 		<author>r15ch13</author>
-		<authorurl>http://www.argon-prime.eu</authorurl>
+		<authorurl>http://www.mein-project.de</authorurl>
 	</authorinformation>
 
 	<requiredpackages>
@@ -27,23 +28,14 @@
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
 		<languages languagecode="en">en.xml</languages>
-		<languages languagecode="it">it.xml</languages>
-                <files>files.tar</files>
+		<files>files.tar</files>
 		<templates>templates.tar</templates>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<acpmenu>acpmenu.xml</acpmenu>
 		<portalbox>portalbox.xml</portalbox>
 		<useroptions>useroptions.xml</useroptions>
+		<groupoptions>groupoptions.xml</groupoptions>
 		<options>options.xml</options>
-	</instructions>
-	<instructions type="update" fromversion="1.0.0 pl 1">
-		<languages languagecode="de">de.xml</languages>
-		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>
-		<languages languagecode="it">it.xml</languages>
-                <files>files.tar</files>
-		<templates>templates.tar</templates>
-		<portalbox>portalbox.xml</portalbox>
-	</instructions>
-	<instructions type="update" fromversion="1.0.1">
-		<templates>templates.tar</templates>
+		<sql>install.sql</sql>
 	</instructions>
 </package>
