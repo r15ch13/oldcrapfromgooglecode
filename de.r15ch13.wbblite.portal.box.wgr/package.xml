@@ -35,7 +35,6 @@
 		<portalbox>portalbox.xml</portalbox>
 		<useroptions>useroptions.xml</useroptions>
 		<groupoptions>groupoptions.xml</groupoptions>
-		<options>options.xml</options>
 		<sql>install.sql</sql>
 	</instructions>
 </package>
