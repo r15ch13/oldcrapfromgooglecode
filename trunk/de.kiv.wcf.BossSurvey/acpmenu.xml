@@ -1,0 +1,1 @@
+<?xml version="1.0"?><!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/acpMenu.dtd"><data>	<import>		<acpmenuitem name="wcf.acp.menu.link.content.BossSurveyAdmin.manage">			<parent>wcf.acp.menu.link.content</parent>			<showorder>1</showorder>			<link>index.php?form=BossSurveyAdmin</link>		</acpmenuitem>	</import></data>

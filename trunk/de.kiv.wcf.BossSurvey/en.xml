@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+
+<language languagecode="en">
+	<category name="wbb.header">
+		<item name="wbb.header.menu.BossSurvey"><![CDATA[Bosskills]]></item>
+	</category>
+	<category name="wbb.index">
+		<item name="wbb.index.BossSurvey.title"><![CDATA[Bosskill Overview]]></item>
+		<item name="wbb.index.BossSurvey.enemy"><![CDATA[Enemy]]></item>
+		<item name="wbb.index.BossSurvey.progress"><![CDATA[Progress]]></item>
+		<item name="wbb.index.BossSurvey.killdate"><![CDATA[Date]]></item>
+		<item name="wbb.index.BossSurvey.newslink"><![CDATA[News (URL)]]></item>
+		<item name="wbb.index.BossSurvey.newslink.title"><![CDATA[News]]></item>
+	</category>
+	<category name="wcf.acp">
+		<item name="wcf.acp.BossSurveyAdmin.manage.success"><![CDATA[Successfully saved!]]></item>
+		<item name="wcf.acp.BossSurveyAdmin.manage.fail"><![CDATA[Failed!]]></item>
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.BossSurveyAdmin.manage"><![CDATA[Manage Bosskills]]></item>
+	</category>
+</language>
