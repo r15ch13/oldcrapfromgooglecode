@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+
+<package name="de.kiv.wcf.BossSurvey">
+	<packageinformation>
+		<packagename lang="de">World of Warcraft - Bosskill &Uuml;bersicht</packagename>
+		<packagename lang="de-informal">World of Warcraft - Bosskill &Uuml;bersicht</packagename>
+		<packagename lang="en">World of Warcraft - Bosskill Overview</packagename>
+		<packagedescription lang="de">&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<packagedescription lang="de-informal">&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<packagedescription lang="en">Clear presentation of Boss progress in World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<isUnique>1</isUnique>
+		<standalone>0</standalone>
+		<version>1.2.0</version>
+		<date>2009-04-17</date>
+		<plugin>com.woltlab.wcf</plugin>
+	</packageinformation>
+	
+	<authorInformation>
+		<author>Kiv (modified by r15ch13)</author>
+		<authorurl>http://www.mein-project.de</authorurl>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.0.7">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<templates>templates.tar</templates>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<files>files.tar</files>
+		<sql>install.sql</sql>
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>		
+		<headermenu>headermenu.xml</headermenu>
+		<acpmenu>acpmenu.xml</acpmenu>
+	</instructions>
+</package>
