@@ -1,28 +1,30 @@
 <?xml version="1.0"?>
 <!DOCTYPE package SYSTEM "DTD/package.dtd">
-
 <package name="de.kiv.wcf.BossSurvey">
+	<!-- $n$de.kiv.wcf.BossSurvey# -->
 	<packageinformation>
-		<packagename>World of Warcraft - Bosskill &Uuml;bersicht</packagename>
-		<packagename languagecode="en">World of Warcraft - Bosskill Overview</packagename>
-		<packagedescription>&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
-		<packagedescription languagecode="en">Clear presentation of Boss progress in World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
-		<isUnique>1</isUnique>
+		<packagename>World of Warcraft - Bosskill Overview</packagename>
+		<packagename languagecode="de">World of Warcraft - Bosskill Uebersicht</packagename>
 		<standalone>0</standalone>
-		<version>1.2.0</version>
-		<date>2009-04-17</date>
 		<plugin>com.woltlab.wcf</plugin>
+		
+		<date>2009-04-17</date>
+		<version>1.2.0</version>
+		<!-- $v$1.2.0# -->
+
+		<packagedescription>Clear presentation of Boss progress in World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<packagedescription languagecode="de">Uebersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>		
 	</packageinformation>
-	
+
 	<authorInformation>
 		<author>Kiv (modified by r15ch13)</author>
 		<authorurl>http://www.mein-project.de</authorurl>
 	</authorInformation>
-	
+
 	<requiredpackages>
 		<requiredpackage minversion="1.0.7">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
-	
+
 	<instructions type="install">
 		<templates>templates.tar</templates>
 		<acptemplates>acptemplates.tar</acptemplates>
@@ -30,7 +32,7 @@
 		<sql>install.sql</sql>
 		<languages languagecode="de">de.xml</languages>
 		<languages languagecode="de-informal">de-informal.xml</languages>
-		<languages languagecode="en">en.xml</languages>		
+		<languages languagecode="en">en.xml</languages>
 		<headermenu>headermenu.xml</headermenu>
 		<acpmenu>acpmenu.xml</acpmenu>
 	</instructions>
