@@ -3,12 +3,10 @@
 
 <package name="de.kiv.wcf.BossSurvey">
 	<packageinformation>
-		<packagename lang="de">World of Warcraft - Bosskill &Uuml;bersicht</packagename>
-		<packagename lang="de-informal">World of Warcraft - Bosskill &Uuml;bersicht</packagename>
-		<packagename lang="en">World of Warcraft - Bosskill Overview</packagename>
-		<packagedescription lang="de">&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
-		<packagedescription lang="de-informal">&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
-		<packagedescription lang="en">Clear presentation of Boss progress in World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<packagename>World of Warcraft - Bosskill &Uuml;bersicht</packagename>
+		<packagename languagecode="en">World of Warcraft - Bosskill Overview</packagename>
+		<packagedescription>&Uuml;bersichtliche Darstellung von Bosserfolgen von World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
+		<packagedescription languagecode="en">Clear presentation of Boss progress in World of Warcraft. (WoW 3.1.0 ready!)</packagedescription>
 		<isUnique>1</isUnique>
 		<standalone>0</standalone>
 		<version>1.2.0</version>
