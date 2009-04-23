@@ -5,7 +5,7 @@
 		<categories>
 			<category name="wowprofil">
 				<icon>icon/wowprofilM.png</icon>
-				<parent>profile</parent>
+				<parent>user.option</parent>
 				<showorder>27</showorder>
 			</category>
 		</categories>
