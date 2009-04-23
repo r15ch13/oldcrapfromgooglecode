@@ -11,7 +11,7 @@
 		</categories>
 		<options>
 			<option name="ingamename">
-				<categoryname></categoryname>
+				<categoryname>wowprofil</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>1</showorder>
 				<visible>1</visible>
