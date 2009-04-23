@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/options.dtd">
+<data>     
+	<import>				 
+		<categories>
+			<category name="wowprofil">
+				<icon>icon/wowprofilM.png</icon>
+				<parent>profile</parent>
+				<showorder>27</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="ingamename">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+				<visible>1</visible>
+			</option>
+			<option name="wowguild">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>2</showorder>
+				<visible>0</visible>
+			</option>		 
+			<option name="wowcharacterclass">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>multiselect</optiontype>
+				<selectoptions><![CDATA[
+0:wcf.user.option.wowother.dk
+1:wcf.user.option.wowother.dr
+2:wcf.user.option.wowother.hu
+3:wcf.user.option.wowother.ma
+4:wcf.user.option.wowother.pa
+5:wcf.user.option.wowother.pr
+6:wcf.user.option.wowother.ro
+7:wcf.user.option.wowother.sa
+8:wcf.user.option.wowother.wl
+9:wcf.user.option.wowother.wa]]></selectoptions>
+				<showorder>5</showorder>
+				<visible>1</visible>		  
+			</option>
+			<option name="faction">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>multiselect</optiontype>
+				<showorder>3</showorder>
+				<selectoptions><![CDATA[
+0:wcf.user.option.faction.hordi
+1:wcf.user.option.faction.ally]]></selectoptions>
+				<visible>0</visible>		  
+			</option>
+			<option name="realm">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>4</showorder>
+				<visible>0</visible>				    
+			</option>						
+			<option name="addon">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>multiselect</optiontype>
+				<showorder>6</showorder>
+				<selectoptions><![CDATA[
+0:wcf.user.option.addon.classic
+1:wcf.user.option.addon.bc
+2:wcf.user.option.addon.wotlk]]></selectoptions>
+				<visible>0</visible>		  
+			</option>
+			<option name="arsenal">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<defaultValue>http://</defaultValue>
+				<validationPattern>^$|^https?://</validationPattern>
+				<showorder>7</showorder>
+				<visible>0</visible>
+				<outputClass>UserOptionOutputURL</outputClass>		  
+			</option>			
+			<option name="buffed">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<defaultValue>http://</defaultValue>
+				<validationPattern>^$|^https?://</validationPattern>
+				<showorder>8</showorder>
+				<visible>0</visible>
+				<outputClass>UserOptionOutputURL</outputClass>		  
+			</option>
+			<option name="curse">
+				<categoryname>wowprofil</categoryname>
+				<optiontype>text</optiontype>
+				<defaultValue>http://</defaultValue>
+				<validationPattern>^$|^https?://</validationPattern>
+				<showorder>9</showorder>
+				<visible>0</visible>
+				<outputClass>UserOptionOutputURL</outputClass>		  
+			</option>									
+<!--		<option name="wowother">
+				<categoryname>profil.wow</categoryname>
+				<optiontype>textarea</optiontype>
+				<showorder>5</showorder>
+				<visible>0</visible>		  
+		    </option> -->
+		</options>
+     </import>
+</data>
