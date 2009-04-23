@@ -3,7 +3,7 @@
 <data>     
 	<import>				 
 		<categories>
-			<category name="wow">
+			<category name="profil.wow">
 				<icon>icon/wowprofilM.png</icon>
 				<parent>profile</parent>
 				<showorder>27</showorder>
@@ -11,19 +11,19 @@
 		</categories>
 		<options>
 			<option name="ingamename">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>1</showorder>
 				<visible>1</visible>
 			</option>
 			<option name="guild">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>2</showorder>
 				<visible>0</visible>
 			</option>		 
 			<option name="class">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<selectoptions><![CDATA[
 0:wcf.user.option.class.dk
@@ -40,7 +40,7 @@
 				<visible>1</visible>		  
 			</option>
 			<option name="faction">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<showorder>3</showorder>
 				<selectoptions><![CDATA[
@@ -49,13 +49,13 @@
 				<visible>0</visible>		  
 			</option>
 			<option name="realm">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>4</showorder>
 				<visible>0</visible>				    
 			</option>						
 			<option name="addon">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<showorder>6</showorder>
 				<selectoptions><![CDATA[
@@ -65,7 +65,7 @@
 				<visible>0</visible>		  
 			</option>
 			<option name="arsenal">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
@@ -74,7 +74,7 @@
 				<outputClass>UserOptionOutputURL</outputClass>		  
 			</option>			
 			<option name="buffed">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
@@ -83,7 +83,7 @@
 				<outputClass>UserOptionOutputURL</outputClass>		  
 			</option>
 			<option name="curse">
-				<categoryname>wow</categoryname>
+				<categoryname>profil.wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
