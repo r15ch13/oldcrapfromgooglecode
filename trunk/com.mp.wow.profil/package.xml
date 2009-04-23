@@ -2,8 +2,8 @@
 <package name="com.mp.wow.profil">
 	<packageinformation>
 		<packagename>[MP] World of Warcraft Profilfelder</packagename>
-		<packagename language="de">[MP] World of Warcraft Profilfelder</packagename>
-		<packagename language="de-informal">[MP] World of Warcraft Profilfelder</packagename>
+		<packagename language="de">World of Warcraft Profilfelder</packagename>
+		<packagename language="de-informal">World of Warcraft Profilfelder</packagename>
 		<packagedescription language="de">F&uuml;gt Profilfelder für World of Warcraft ein</packagedescription>
 		<packagedescription language="de-informal">F&uuml;gt Profilfelder für World of Warcraft ein</packagedescription>
 		<version>1.1.7</version>
