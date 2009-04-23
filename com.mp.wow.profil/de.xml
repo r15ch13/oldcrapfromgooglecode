@@ -2,7 +2,7 @@
 <!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
 <language languagecode="de">
 	<category name="wcf.user.option.wowprofil">
-	    <item name="wcf.user.option.wowprofil.wow"><![CDATA[World of Warcraft]]></item>
+		<item name="wcf.user.option.wowprofil.title"><![CDATA[World of Warcraft Profilfelder]]></item>
 	    		
 		<item name="wcf.user.option.wowprofil.ingamename"><![CDATA[Charaktername]]></item>
 	    <item name="wcf.user.option.wowprofil.ingamename.description"><![CDATA[Tragen Sie hier Ihre Charakternamen, mit Komma (,) getrennt, ein.]]></item>
