@@ -16,26 +16,26 @@
 				<showorder>1</showorder>
 				<visible>1</visible>
 			</option>
-			<option name="wowguild">
+			<option name="guild">
 				<categoryname>wowprofil</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>2</showorder>
 				<visible>0</visible>
 			</option>		 
-			<option name="wowcharacterclass">
+			<option name="class">
 				<categoryname>wowprofil</categoryname>
 				<optiontype>multiselect</optiontype>
 				<selectoptions><![CDATA[
-0:wcf.user.option.wowother.dk
-1:wcf.user.option.wowother.dr
-2:wcf.user.option.wowother.hu
-3:wcf.user.option.wowother.ma
-4:wcf.user.option.wowother.pa
-5:wcf.user.option.wowother.pr
-6:wcf.user.option.wowother.ro
-7:wcf.user.option.wowother.sa
-8:wcf.user.option.wowother.wl
-9:wcf.user.option.wowother.wa]]></selectoptions>
+0:wcf.user.option.wowprofil.class.dk
+1:wcf.user.option.wowprofil.class.dr
+2:wcf.user.option.wowprofil.class.hu
+3:wcf.user.option.wowprofil.class.ma
+4:wcf.user.option.wowprofil.class.pa
+5:wcf.user.option.wowprofil.class.pr
+6:wcf.user.option.wowprofil.class.ro
+7:wcf.user.option.wowprofil.class.sa
+8:wcf.user.option.wowprofil.class.wl
+9:wcf.user.option.wowprofil.class.wa]]></selectoptions>
 				<showorder>5</showorder>
 				<visible>1</visible>		  
 			</option>
@@ -44,8 +44,8 @@
 				<optiontype>multiselect</optiontype>
 				<showorder>3</showorder>
 				<selectoptions><![CDATA[
-0:wcf.user.option.faction.hordi
-1:wcf.user.option.faction.ally]]></selectoptions>
+0:wcf.user.option.wowprofil.faction.hordi
+1:wcf.user.option.wowprofil.faction.ally]]></selectoptions>
 				<visible>0</visible>		  
 			</option>
 			<option name="realm">
@@ -59,9 +59,9 @@
 				<optiontype>multiselect</optiontype>
 				<showorder>6</showorder>
 				<selectoptions><![CDATA[
-0:wcf.user.option.addon.classic
-1:wcf.user.option.addon.bc
-2:wcf.user.option.addon.wotlk]]></selectoptions>
+0:wcf.user.option.wowprofil.addon.classic
+1:wcf.user.option.wowprofil.addon.bc
+2:wcf.user.option.wowprofil.addon.wotlk]]></selectoptions>
 				<visible>0</visible>		  
 			</option>
 			<option name="arsenal">
