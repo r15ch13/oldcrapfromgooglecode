@@ -3,69 +3,69 @@
 <data>     
 	<import>				 
 		<categories>
-			<category name="wowprofil">
+			<category name="wow">
 				<icon>icon/wowprofilM.png</icon>
-				<parent></parent>
+				<parent>profile</parent>
 				<showorder>27</showorder>
 			</category>
 		</categories>
 		<options>
 			<option name="ingamename">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>1</showorder>
 				<visible>1</visible>
 			</option>
 			<option name="guild">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>2</showorder>
 				<visible>0</visible>
 			</option>		 
 			<option name="class">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<selectoptions><![CDATA[
-0:wcf.user.option.wowprofil.class.dk
-1:wcf.user.option.wowprofil.class.dr
-2:wcf.user.option.wowprofil.class.hu
-3:wcf.user.option.wowprofil.class.ma
-4:wcf.user.option.wowprofil.class.pa
-5:wcf.user.option.wowprofil.class.pr
-6:wcf.user.option.wowprofil.class.ro
-7:wcf.user.option.wowprofil.class.sa
-8:wcf.user.option.wowprofil.class.wl
-9:wcf.user.option.wowprofil.class.wa]]></selectoptions>
+0:wcf.user.option.class.dk
+1:wcf.user.option.class.dr
+2:wcf.user.option.class.hu
+3:wcf.user.option.class.ma
+4:wcf.user.option.class.pa
+5:wcf.user.option.class.pr
+6:wcf.user.option.class.ro
+7:wcf.user.option.class.sa
+8:wcf.user.option.class.wl
+9:wcf.user.option.class.wa]]></selectoptions>
 				<showorder>5</showorder>
 				<visible>1</visible>		  
 			</option>
 			<option name="faction">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<showorder>3</showorder>
 				<selectoptions><![CDATA[
-0:wcf.user.option.wowprofil.faction.hordi
-1:wcf.user.option.wowprofil.faction.ally]]></selectoptions>
+0:wcf.user.option.faction.hordi
+1:wcf.user.option.faction.ally]]></selectoptions>
 				<visible>0</visible>		  
 			</option>
 			<option name="realm">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<showorder>4</showorder>
 				<visible>0</visible>				    
 			</option>						
 			<option name="addon">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>multiselect</optiontype>
 				<showorder>6</showorder>
 				<selectoptions><![CDATA[
-0:wcf.user.option.wowprofil.addon.classic
-1:wcf.user.option.wowprofil.addon.bc
-2:wcf.user.option.wowprofil.addon.wotlk]]></selectoptions>
+0:wcf.user.option.addon.classic
+1:wcf.user.option.addon.bc
+2:wcf.user.option.addon.wotlk]]></selectoptions>
 				<visible>0</visible>		  
 			</option>
 			<option name="arsenal">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
@@ -74,7 +74,7 @@
 				<outputClass>UserOptionOutputURL</outputClass>		  
 			</option>			
 			<option name="buffed">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
@@ -83,7 +83,7 @@
 				<outputClass>UserOptionOutputURL</outputClass>		  
 			</option>
 			<option name="curse">
-				<categoryname>wowprofil</categoryname>
+				<categoryname>wow</categoryname>
 				<optiontype>text</optiontype>
 				<defaultValue>http://</defaultValue>
 				<validationPattern>^$|^https?://</validationPattern>
@@ -91,12 +91,6 @@
 				<visible>0</visible>
 				<outputClass>UserOptionOutputURL</outputClass>		  
 			</option>									
-<!--		<option name="wowother">
-				<categoryname>profil.wow</categoryname>
-				<optiontype>textarea</optiontype>
-				<showorder>5</showorder>
-				<visible>0</visible>		  
-		    </option> -->
 		</options>
      </import>
 </data>
