@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="com.mp.wow.profil">
 	<packageinformation>
-		<packagename>[MP] World of Warcraft Profil Felder</packagename>
-		<packagename language="de">World of Warcraft Profil Felder</packagename>
-		<packagename language="de-informal">World of Warcraft Profil Felder</packagename>
-		<packagedescription language="de">Fügt Profilfelder für World of Warcraft ein</packagedescription>
-		<packagedescription language="de-informal">Fügt Profilfelder für World of Warcraft ein</packagedescription>
-		<packagedescription language="en">Add Profilfields of World of Warcraft</packagedescription>
-		<version>1.1.6</version>
-		<date>2009-04-20</date>
+		<packagename>[MP] World of Warcraft Profilfelder</packagename>
+		<packagename language="de">[MP] World of Warcraft Profilfelder</packagename>
+		<packagename language="de-informal">[MP] World of Warcraft Profilfelder</packagename>
+		<packagedescription language="de">F&uuml;gt Profilfelder für World of Warcraft ein</packagedescription>
+		<packagedescription language="de-informal">F&uuml;gt Profilfelder für World of Warcraft ein</packagedescription>
+		<version>1.1.7</version>
+		<date>2009-04-24</date>
 		<isunique>0</isunique>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf</plugin>
