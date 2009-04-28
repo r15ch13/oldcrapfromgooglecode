@@ -54,15 +54,14 @@ INSERT INTO `wcf1_portal_wgr_options` VALUES (6, 'portal_wgr_he', '', '1');
 INSERT INTO `wcf1_portal_wgr_options` VALUES (7, 'portal_wgr_ta', '', '1');
 INSERT INTO `wcf1_portal_wgr_options` VALUES (8, 'portal_wgr_detail', '', '1');
 
-INSERT INTO `wcf1_group_option_value` (`groupID`, `optionID`, `optionValue`)
-VALUES (
-	(
+UPDATE `wcf1_group_option_value` SET `optionValue` = '1'
+WHERE `wcf1_group_option_value`.`groupID` = (
 		SELECT  `groupID`
 		FROM  `wcf1_group`
 		WHERE  `groupName` =  'Administratoren'
-	), (
+)
+AND `wcf1_group_option_value`.`optionID` = (
 		SELECT  `optionID`
 		FROM  `wcf1_group_option`
 		WHERE  `optionName` =  'user.portal.canEditRecruitment'
-	),  '1'
 );
