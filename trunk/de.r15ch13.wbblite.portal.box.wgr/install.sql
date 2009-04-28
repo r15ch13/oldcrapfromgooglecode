@@ -43,7 +43,7 @@ CREATE TABLE `wcf1_portal_wgr_options` (
   UNIQUE KEY `option_name` (`option_name`),
   KEY `option_color` (`option_color`),
   KEY `option_onoff` (`option_onoff`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9;
 
 INSERT INTO `wcf1_portal_wgr_options` VALUES (1, 'portal_wgr_offline', '', '0');
 INSERT INTO `wcf1_portal_wgr_options` VALUES (2, 'portal_wgr_clcolor', '', '0');
