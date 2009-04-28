@@ -46,6 +46,10 @@
 	</instructions>
 
 	<instructions type="update" fromversion="1.2.0 pl 1">
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+		<languages languagecode="it">it.xml</languages>
 		<sql>update.sql</sql>
 	</instructions>
 </package>

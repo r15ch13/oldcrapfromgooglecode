@@ -20,7 +20,7 @@
 		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Guild Recruitment]]></item>
 		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[Choose the needed classes.]]></item>
 
-		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Deactivate Box?]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Activate Box?]]></item>
 		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Choose this option to show the wanted classes.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Deactivate skills.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>

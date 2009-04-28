@@ -20,7 +20,7 @@
 		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[Reclutamento Gilda WoW]]></item>
 		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[Scegli le classi necessari.]]></item>
 
-		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Vuoi disattivare il Box?]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Vuoi attivare il Box?]]></item>
 		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Scegli questa opzione per mostrare le classi che si vuole aggiungere.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Disattivare le abilit&#224;.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
