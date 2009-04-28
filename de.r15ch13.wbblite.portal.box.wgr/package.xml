@@ -46,5 +46,6 @@
 	</instructions>
 
 	<instructions type="update" fromversion="1.2.0 pl 1">
+		<sql>update.sql</sql>
 	</instructions>
 </package>
