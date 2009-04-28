@@ -8,8 +8,8 @@
 		<plugin>com.woltlab.wbb</plugin>
 
 		<date>2009-04-28</date>
-		<version>1.2.0 pl 2</version>
-		<!-- $v$1.2.0pl2# -->
+		<version>1.2.1</version>
+		<!-- $v$1.2.1# -->
 
 		<packagedescription>Diese Portalbox zeigt an welche Klassen für den Erfolg der eigenen World of Warcaft Gilde gesucht werden.</packagedescription>
 		<packagedescription languagecode="en">This Portalbox indicates which classes are wanted for the success of your own World of Warcaft Guild.</packagedescription>
@@ -42,7 +42,11 @@
 	</instructions>
 
 	<instructions type="update" fromversion="1.2.0">
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
 		<languages languagecode="it">it.xml</languages>
+		<sql>update.sql</sql>
 	</instructions>
 
 	<instructions type="update" fromversion="1.2.0 pl 1">
