@@ -20,7 +20,7 @@
 		<item name="wcf.acp.option.category.portal.wgrbox"><![CDATA[WoW Gilden Rekrutierung]]></item>
 		<item name="wcf.acp.option.category.portal.wgrbox.description"><![CDATA[W&auml;hlen Sie die gesuchten Klassen.]]></item>
 
-		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Box deaktivieren?]]></item>
+		<item name="wcf.acp.option.portal_wgr_offline"><![CDATA[Box aktivieren?]]></item>
 		<item name="wcf.acp.option.portal_wgr_offline.description"><![CDATA[Aktivieren Sie diese Option um die gesuchten Klassen anzeigen zu lassen.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills"><![CDATA[Skillung deaktivieren.]]></item>
 		<item name="wcf.acp.option.portal_wgr_woskills.description"><![CDATA[]]></item>
