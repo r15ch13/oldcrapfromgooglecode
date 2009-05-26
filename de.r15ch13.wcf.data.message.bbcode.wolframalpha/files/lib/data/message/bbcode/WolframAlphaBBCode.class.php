@@ -16,7 +16,8 @@ class WolframAlphaBBCode implements BBCode {
 		if ($parser->getOutputType() == 'text/html') {
 			// show template
 			WCF::getTPL()->assign(array(
-					'content'=>intval($content)
+					'querystring'=>urlencode($content),
+					'content'=>($content)
 			));
 			return WCF::getTPL()->fetch('WolframAlphaBBCodeTag');
 		}
