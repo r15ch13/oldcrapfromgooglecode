@@ -1,1 +1,1 @@
-<a href="http://www.wolframalpha.com/input/?i={$content}" class="externalURL">{$content}</a>
+<a href="http://www.wolframalpha.com/input/?i={$querystring}" class="externalURL">{$content}</a>
