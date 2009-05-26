@@ -1,0 +1,1 @@
+<a href="http://www.wolframalpha.com/input/?i={$content}" class="externalURL">{$content}</a>

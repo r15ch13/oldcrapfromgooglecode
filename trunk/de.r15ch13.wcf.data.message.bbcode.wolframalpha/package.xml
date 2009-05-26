@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="de.r15ch13.wcf.data.message.bbcode.wolframalpha">
+	<packageInformation>
+		<packageName><![CDATA[WolframAlpha BBCodes]]></packageName>
+		<packageDescription language="de"><![CDATA[BBCodes für die WolframAlpha Suche]]></packageDescription>
+		<version>1.0.0</version>
+		<date>2009-xx-xx</date>
+		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
+		<isunique>1</isunique>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[r15ch13]]></author>
+		<authorURL><![CDATA[http://www.r15ch13.de]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.0.0">com.woltlab.wcf.data.message.bbcode</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<bbcodes>bbcodes.xml</bbcodes>
+	</instructions>
+
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<bbcodes>bbcodes.xml</bbcodes>
+	</instructions>
+</package>
