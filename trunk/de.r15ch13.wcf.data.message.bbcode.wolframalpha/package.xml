@@ -5,7 +5,7 @@
 		<packageName><![CDATA[WolframAlpha BBCodes]]></packageName>
 		<packageDescription language="de"><![CDATA[BBCodes für die WolframAlpha Suche]]></packageDescription>
 		<version>1.0.0</version>
-		<date>2009-xx-xx</date>
+		<date>2009-05-27</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 		<isunique>1</isunique>
 	</packageInformation>
