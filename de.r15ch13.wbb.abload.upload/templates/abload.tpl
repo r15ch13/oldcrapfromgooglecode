@@ -1,6 +1,6 @@
 <div id="abload" align="center">
 	<fieldset class="noJavaScript">
-          <iframe src="http://www.r15ch13.de/abload/" scrolling="no" allowtransparency="true" frameborder="0" width="280" height="70">Dieser Browser unterstützt anscheinend keine Iframes.</iframe>
+          <iframe src="http://www.r15ch13.de/abload/" scrolling="no" allowtransparency="true" frameborder="0" width="280" height="80">Dieser Browser unterstützt anscheinend keine Iframes.</iframe>
 	</fieldset>
 	<p>{lang}wcf.abload.info{/lang}</p>
 	<p>&nbsp;</p>
