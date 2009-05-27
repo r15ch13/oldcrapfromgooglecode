@@ -3,7 +3,9 @@
 <package name="de.r15ch13.wcf.data.message.bbcode.wolframalpha">
 	<packageInformation>
 		<packageName><![CDATA[WolframAlpha BBCodes]]></packageName>
-		<packageDescription language="de"><![CDATA[BBCodes für die WolframAlpha Suche]]></packageDescription>
+		<packageDescription language="de"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
+		<packageDescription language="en"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
+		<packageurl><![CDATA[http://www.r15ch13.de]]></packageurl>
 		<version>1.0.0</version>
 		<date>2009-05-27</date>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
@@ -21,13 +23,15 @@
 
 	<instructions type="install">
 		<files>files.tar</files>
-		<templates>templates.tar</templates>
 		<bbcodes>bbcodes.xml</bbcodes>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
 	</instructions>
 
 	<instructions type="update" fromversion="*">
 		<files>files.tar</files>
-		<templates>templates.tar</templates>
 		<bbcodes>bbcodes.xml</bbcodes>
+		<templates>templates.tar</templates>
+		<eventlistener>eventlistener.xml</eventlistener>
 	</instructions>
 </package>
