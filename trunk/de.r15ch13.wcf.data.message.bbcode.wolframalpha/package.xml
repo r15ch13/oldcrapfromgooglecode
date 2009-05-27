@@ -2,7 +2,7 @@
 <!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
 <package name="de.r15ch13.wcf.data.message.bbcode.wolframalpha">
 	<packageInformation>
-		<packageName><![CDATA[WolframAlpha BBCodes]]></packageName>
+		<packageName><![CDATA[WolframAlpha BBCode]]></packageName>
 		<packageDescription language="de"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
 		<packageDescription language="en"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
 		<packageurl><![CDATA[http://www.r15ch13.de]]></packageurl>
