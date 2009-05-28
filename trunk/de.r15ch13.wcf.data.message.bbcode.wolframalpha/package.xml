@@ -3,12 +3,12 @@
 <package name="de.r15ch13.wcf.data.message.bbcode.wolframalpha">
 	<packageInformation>
 		<packageName><![CDATA[WolframAlpha BBCode]]></packageName>
-		<packageDescription language="de"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
-		<packageDescription language="en"><![CDATA[WolframAlpha knowlege engine BBCode]]></packageDescription>
+		<packageDescription language="de"><![CDATA[WolframAlpha knowledge engine BBCode]]></packageDescription>
+		<packageDescription language="en"><![CDATA[WolframAlpha knowledge engine BBCode]]></packageDescription>
 		<packageurl><![CDATA[http://www.r15ch13.de]]></packageurl>
 		<version>1.0.0</version>
-		<date>2009-05-27</date>
-		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
+		<date>2009-05-29</date>
+		<plugin>com.woltlab.wcf</plugin>
 		<isunique>1</isunique>
 	</packageInformation>
 
@@ -22,13 +22,6 @@
 	</requiredpackages>
 
 	<instructions type="install">
-		<files>files.tar</files>
-		<bbcodes>bbcodes.xml</bbcodes>
-		<templates>templates.tar</templates>
-		<eventlistener>eventlistener.xml</eventlistener>
-	</instructions>
-
-	<instructions type="update" fromversion="*">
 		<files>files.tar</files>
 		<bbcodes>bbcodes.xml</bbcodes>
 		<templates>templates.tar</templates>

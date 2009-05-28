@@ -11,10 +11,7 @@ class WolframAlphaListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		WCF::getTPL()->append('userMessages', "<style type=\"text/css\">\n
-\t.wolframalpha {background-image: url('".RELATIVE_WCF_DIR."icon/WolframAlphaEqualOff.png');background-position: center right;background-repeat: no-repeat;margin-right: 3px;padding-right: 15px;}\n
-\t.wolframalpha:hover {background-image: url('".RELATIVE_WCF_DIR."icon/WolframAlphaEqual.png');background-position: center right;background-repeat: no-repeat;}\n
-</style>\n");
+		WCF::getTPL()->append('specialStyles', '<link rel="stylesheet" type="text/css" media="screen" href="'.RELATIVE_WCF_DIR.'style/WolframAlpha.css" />');
 	}
 }
 ?>
