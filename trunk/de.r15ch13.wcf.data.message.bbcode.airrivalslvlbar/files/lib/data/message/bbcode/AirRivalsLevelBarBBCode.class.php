@@ -10,21 +10,21 @@ require_once (WCF_DIR . 'lib/data/message/bbcode/BBCode.class.php');
  */
 class AirRivalsLevelBarBBCode implements BBCode {
 	private function CurrentPercent($prozent) {
-	if(is_numeric($prozent)) {
-		$tmp = '';
-		if($prozent >= 0 AND $prozent <= 99){
-				$i = 0;
-				while($i < 100) {
-					if($i < $prozent) {
-						if($i == 10 OR $i == 20 OR $i == 30 OR $i == 40 OR $i == 50 OR $i == 60 OR $i == 70 OR $i == 80 OR $i == 90) {
-							$tmp .= ' I';
-						} else {
-							$tmp .= 'I';
+		if(is_numeric($prozent)) {
+			$tmp = '';
+			if($prozent >= 0 AND $prozent <= 99) {
+					$i = 0;
+					while($i < 100) {
+						if($i < $prozent) {
+							if($i == 10 OR $i == 20 OR $i == 30 OR $i == 40 OR $i == 50 OR $i == 60 OR $i == 70 OR $i == 80 OR $i == 90) {
+								$tmp .= ' I';
+							} else {
+								$tmp .= 'I';
+							}
 						}
+						$i++;
 					}
-					$i++;
-				}
-				return $tmp;
+					return $tmp;
 			}
 		}
 	}
@@ -32,7 +32,7 @@ class AirRivalsLevelBarBBCode implements BBCode {
 	private function NeededPercent($prozent) {
 		if(is_numeric($prozent)) {
 			$tmp = '';
-			if($prozent >= 0 AND $prozent <= 99){
+			if($prozent >= 0 AND $prozent <= 99) {
 				$i = 0;
 				while($i < 100) {
 					if($i >= $prozent) {
