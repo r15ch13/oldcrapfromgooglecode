@@ -3,7 +3,7 @@
 <data>
 	<import>
 		<bbcode name="arlvl">
-			<classname>AirRivalsLevelBar</classname>
+			<classname>AirRivalsLevelBarBBCode</classname>
 			<allowedchildren>none</allowedchildren>
 			<attributes>
 				<attribute name="0">
