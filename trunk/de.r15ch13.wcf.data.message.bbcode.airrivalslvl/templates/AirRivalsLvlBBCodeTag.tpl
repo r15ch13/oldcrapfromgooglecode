@@ -1,1 +1,0 @@
-<span class="AirRivalsLevelBar">{$content}</span>
