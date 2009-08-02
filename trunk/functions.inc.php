@@ -253,24 +253,19 @@ function lowerQuartile($arr) {
 	if(is_array($arr)) {
 		$c = count($arr);
 		if($c%2 == 0) {
-			$arrr = array_slice($arr, 0, $c / 2);
-			$cc = count($arrr);
-			if($cc%2 == 0) {
-				$result = ($arrr[($cc / 2) - 1] + $arrr[($cc / 2)]) / 2;
-			} else {
-				$result = $arrr[($cc -1) / 2];
-			}
+			$slice = array_slice($arr, 0, $c / 2);		
 		} else {
-			$arrr = array_slice($arr, 0, ($c - 1) / 2);
-			$cc = count($arrr);
-			if($cc%2 == 0) {
-				$result = ($arrr[($cc / 2) - 1] + $arrr[($cc / 2)]) / 2;
-			} else {
-				$result = $arrr[($cc -1) / 2];
-			}
+			$slice = array_slice($arr, 0, ($c - 1) / 2);
 		}
-		return $result;
+		
+		$cs = count($slice);
+		if($cs%2 == 0) {
+			$result = ($slice[($cs / 2) - 1] + $slice[($cs / 2)]) / 2;
+		} else {
+			$result = $slice[($cs -1) / 2];
+		}
 	}
+	return $result;
 }
 
 /**
@@ -284,24 +279,19 @@ function upperQuartile($arr) {
 	if(is_array($arr)) {
 		$c = count($arr);
 		if($c%2 == 0) {
-			$arrr = array_slice($arr, $c / 2);
-			$cc = count($arrr);
-			if($cc%2 == 0) {
-				$result = ($arrr[($cc / 2) - 1] + $arrr[($cc / 2)]) / 2;
-			} else {
-				$result = $arrr[($cc -1) / 2];
-			}
+			$slice = array_slice($arr, $c / 2);
+					 
 		} else {
-			$arrr = array_slice($arr, ($c - 1) / 2 + 1);
-			$cc = count($arrr);
-			if($cc%2 == 0) {
-				$result = ($arrr[($cc / 2) - 1] + $arrr[($cc / 2)]) / 2;
-			} else {
-				$result = $arrr[($cc -1) / 2];
-			}
+			$slice = array_slice($arr, ($c - 1) / 2 + 1);
+		}		
+		$cs = count($slice);
+		if($cs%2 == 0) {
+			$result = ($slice[($cs / 2) - 1] + $slice[($cs / 2)]) / 2;
+		} else {
+			$result = $slice[($cs -1) / 2];
 		}
-		return $result;
 	}
+	return $result;
 }
 
 /**
