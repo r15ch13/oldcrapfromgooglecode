@@ -97,7 +97,7 @@ function site($arr) {
 	);
 	return $arr;
 }
- 
+
 /**
  * @author Richard 'r15ch13' Kuhnt
  */
@@ -113,28 +113,28 @@ function error_msg($msg, $html = false) {
 	}
 	if(!empty($error)) {
 		$return = $html == true ? '<span id="error" style="color:#ff0000; font-weight:bold; background-color:#efefef;">'.$error.'</span>' : '<pre>'.$error.'</pre>';
-	}	
+	}
 	print $return;
 }
 
 /**
  * Maskiert einen String für eine SQL-Abfrage
- * 
+ *
  * @author Edgar Obenaus, GFG Avantgarde mbH
- * @version 1.0    
- * @param String zu maskierdender String     
- * @return String maskierter String     
+ * @version 1.0
+ * @param String zu maskierdender String
+ * @return String maskierter String
  */
 function maskSQL($var) {
 	$var = trim($var);
 	$var = htmlentities($var, ENT_QUOTES);
-	$var = mysql_escape_string($var);	
-	return $var;	
+	$var = mysql_escape_string($var);
+	return $var;
 }
 
 /**
  * Konvertiert SQL Datetime nach Unix Timestamp
- *  
+ *
  * @param  string SQL Datetime im Format 'Y-m-d H:i:s'
  * @return string Unix Timestamp
  * @access public
@@ -154,7 +154,7 @@ function get_timestamp ($var) {
 /**
  * @author Richard 'r15ch13' Kuhnt
  * Konvertiert Unix Timestamp nach Datetime
- *  
+ *
  * @param  string Unix Timestamp
  * @param  bool   Set true to convert String to Time
  * @return string Datetime im Format 'd-m-Y H:i:s'
@@ -187,7 +187,7 @@ function get_prio($imapstream, $msgno) {
 /**
  * @author Richard 'r15ch13' Kuhnt
  * @param  string  SQL-Query
- * @return array   Liefert einen Datensatz als assoziatives Array 
+ * @return array   Liefert einen Datensatz als assoziatives Array
  * @access public
  */
 function assoc_query($var) {
@@ -228,7 +228,7 @@ function mysql_fetch_all_assoc($var) {
  *
  * @author Richard 'r15ch13' Kuhnt
  * @param  array    Array mit numerischen Werten
- * @return double	Gibt den Median als Double zurück    
+ * @return double	Gibt den Median als Double zurück
  */
 function median($arr) {
 	if(is_array($arr)) {
@@ -244,52 +244,43 @@ function median($arr) {
 
 /**
  * Errechnet den Wert des unteren Viertels eines Arrays
+ * requires median()
  *
  * @author Richard 'r15ch13' Kuhnt
  * @param  array    Array mit numerischen Werten
- * @return double	Gibt den Wert des unteren Viertels als Double zurück    
+ * @return double	Gibt den Wert des unteren Viertels als Double zurück
  */
 function lowerQuartile($arr) {
 	if(is_array($arr)) {
 		$c = count($arr);
 		if($c%2 == 0) {
-			$slice = array_slice($arr, 0, $c / 2);		
+			$slice = array_slice($arr, 0, $c / 2);
 		} else {
 			$slice = array_slice($arr, 0, ($c - 1) / 2);
 		}
-		
-		$cs = count($slice);
-		if($cs%2 == 0) {
-			$result = ($slice[($cs / 2) - 1] + $slice[($cs / 2)]) / 2;
-		} else {
-			$result = $slice[($cs -1) / 2];
-		}
+		$result = median($slice);
 	}
 	return $result;
 }
 
 /**
  * Errechnet den Wert des oberen Viertels eines Arrays
+ * requires median()
  *
  * @author Richard 'r15ch13' Kuhnt
  * @param  array    Array mit numerischen Werten
- * @return double	Gibt den Wert des oberen Viertels als Double zurück    
+ * @return double	Gibt den Wert des oberen Viertels als Double zurück
  */
 function upperQuartile($arr) {
 	if(is_array($arr)) {
 		$c = count($arr);
 		if($c%2 == 0) {
 			$slice = array_slice($arr, $c / 2);
-					 
+
 		} else {
 			$slice = array_slice($arr, ($c - 1) / 2 + 1);
-		}		
-		$cs = count($slice);
-		if($cs%2 == 0) {
-			$result = ($slice[($cs / 2) - 1] + $slice[($cs / 2)]) / 2;
-		} else {
-			$result = $slice[($cs -1) / 2];
 		}
+		$result = median($slice);
 	}
 	return $result;
 }
@@ -381,7 +372,7 @@ function read_file($file) {
  * @param string MD5-Hash
  * @return string Gibt <b>true</b> zurück, wenn der Wert ein MD5-Hash ist.
  */
-function is_md5($var) { // 
+function is_md5($var) { //
 	$var = preg_replace("/;;/", "", $var);
 	$var = trim($var);
 	if (preg_match('/^[A-Fa-f0-9]{32}$/', $var) == true)  //return preg_match('/^[A-Fa-f0-9]{32}$/',$var);
@@ -390,7 +381,7 @@ function is_md5($var) { //
 
 
 /**
- * Entfernt alle leeren Werte innerhalb des angegeben Arrays 
+ * Entfernt alle leeren Werte innerhalb des angegeben Arrays
  *
  * @author Richard 'r15ch13' Kuhnt
  * @param array $arr array with empty values
@@ -419,16 +410,16 @@ function strstrbi($haystack, $needle, $before_needle=FALSE, $include_needle=TRUE
 	} else {
 		$pos=strpos(strtolower($haystack),strtolower($needle));
 	}
- 
+
 	//If $needle not found, abort
 	if($pos===FALSE) return FALSE;
- 
+
 	//Adjust $pos to include/exclude the needle
 	if($before_needle==$include_needle) $pos+=strlen($needle);
 
 	//get everything from 0 to $pos?
 	if($before_needle) return substr($haystack,0,$pos);
- 
+
 	//otherwise, go from $pos to end
 	return substr($haystack,$pos);
 }
