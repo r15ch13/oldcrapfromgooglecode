@@ -23,48 +23,40 @@ class AionarmoryBBCode implements BBCode {
 	 * @see BBCode::getParsedTag()
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
-
 		if (!empty($content)) {
+			$data = @$this->string2array(str_replace("?", "#", htmlentities($content)), "%crap%/%typ%.aspx#id=%id%");
 
-			$data = @$this->string2array(str_replace("?", "#", $content), "%url%#%typ%=%iid%");
-			if (!empty($data['typ'])) {
-
-				if (!empty($openingTag['attributes'][0])) {
-
-                        		if (is_numeric($openingTag['attributes'][0])) {
-
-						$quali = ' class="q'.$openingTag['attributes'][0].'"';
-						if (!empty($openingTag['attributes'][1])) {
-
-							$name = $openingTag['attributes'][1];
-						} else {
-
-							$name = $data['typ']." #".$data['iid'];
-						}
-					} else {
-
-                        			$name = $openingTag['attributes'][0];
-						if (!empty($openingTag['attributes'][1])) {
-
-							if (is_numeric($openingTag['attributes'][1])) {
-
-								$quali = ' class="q'.$openingTag['attributes'][1].'"';
-							} else {
-
-								$quali = false;
-							}
-						} else {
-
-							$quali = false;
-						}
+			if(in_array($data['typ'], array("item", "npc", "spell")) && is_numeric($data['id'])) {
+				
+				$itemid = htmlentities($data['id']);
+				$typ = htmlentities($data['typ']);
+				$size = "aiondb-item-full-small";
+				$name = $typ ." #". $itemid;
+				
+				if(!empty($openingTag['attributes'][0])) {
+					switch (htmlentities(trim($openingTag['attributes'][0]))) {
+						case "text":
+							$size = "aiondb-item-text";
+							break;
+						case "small":
+							$size = "aiondb-item-full-small";
+							break;
+						case "medium":
+							$size = "aiondb-item-full-medium";
+							break;
+						case "large":
+							$size = "aiondb-item-full-large";
+							break;
+						default:
+							$name = htmlentities(trim($openingTag['attributes'][0]));
 					}
-				} else {
-
-                			$name = $data['typ']." #".$data['iid'];
-                			$quali = false;
 				}
-				return '<a href="'.$content.'"'.$quali.'>['.$name.']</a>';
+				
+				return '<a class="'.$size.'" href="http://www.aionarmory.com/'. $typ .'.aspx?id='. $itemid .'">['. $name .']</a>';
+			} else {
+				return '<a href="'. htmlentities($content) .'">'. htmlentities($content) .'</a>';;
 			}
+
 		}
 
 	}
