@@ -2,7 +2,7 @@
 <!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/bbcodes.dtd">
 <data>
 	<import>
-		<bbcode name="Aionarmory">
+		<bbcode name="aion">
 			<classname>AionarmoryBBCode</classname>
 			<allowedchildren>none</allowedchildren>
 			<attributes>
