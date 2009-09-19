@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
 <package name="de.r15ch13.wcf.data.message.bbcode.aion">
-	   <!-- $~$de.r15ch13.wcf.data.message.bbcode.aion# -->
+	   <!-- $x$de.r15ch13.wcf.data.message.bbcode.aion# -->
 	<packageinformation>
 		<packagename>Aion Armory BBCode</packagename>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 		<isunique>1</isunique>
 		<version>1.0.0</version>
-		<!-- $°$1.0.0# -->
+		<!-- $y$1.0.0# -->
 		<packagedescription>Ein BBCode um Item- und Spelldaten von Aionarmory.com anzeigen zulassen.</packagedescription>
 		<date>2009-09-19</date>
 	</packageinformation>
