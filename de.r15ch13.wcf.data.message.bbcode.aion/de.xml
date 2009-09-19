@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.aionarmory.title"><![CDATA[F&uuml;gen Sie Item- & Spelllinks von Aionarmory.com ein]]></item>
+		<item name="wcf.bbcode.aionarmory.suffix"><![CDATA[de]]></item>
+	</category>
+</language>
