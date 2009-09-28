@@ -2,16 +2,15 @@
 <!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/bbcodes.dtd">
 <data>
 	<import>
-		<bbcode name="aiondb">
-			<classname>AionDatabaseBBCode</classname>
+		<bbcode name="arlvl">
+			<classname>AirRivalsLevelBarBBCode</classname>
 			<allowedchildren>none</allowedchildren>
 			<attributes>
 				<attribute name="0">
-					<required>0</required>
+					<required>1</required>
 				</attribute>
 			</attributes>
 			<sourcecode>1</sourcecode>
-			<wysiwygicon>AionDatabaseBBCode.png</wysiwygicon>
 		</bbcode>
 	</import>
 </data>

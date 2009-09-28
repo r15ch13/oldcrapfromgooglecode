@@ -2,7 +2,7 @@
 require_once(WCF_DIR.'lib/data/message/bbcode/BBCodeParser.class.php');
 require_once(WCF_DIR.'lib/data/message/bbcode/BBCode.class.php');
 
-class AionarmoryBBCode implements BBCode {
+class AionDatabaseBBCode implements BBCode {
 	protected $url = '';
 	protected $defaultlang = 'en';
 
@@ -24,35 +24,55 @@ class AionarmoryBBCode implements BBCode {
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
 		if (!empty($content)) {
-			$data = @$this->string2array(str_replace("?", "#", htmlentities($content)), "%crap%/%typ%.aspx#id=%id%");
+			/*
+				http://de.aiondatabase.com/item/100900189
+					aion-item-full-small
+					aion-item-full-medium
+					aion-item-full-large
+				http://de.aiondatabase.com/skill/572
+					aion-skill-full-small					
+					aion-skill-full-medium
+					aion-skill-full-large
+				http://de.aiondatabase.com/recipe/155006350
+					aion-recipe-full-small
+					aion-recipe-full-medium
+					aion-recipe-full-large
+				http://de.aiondatabase.com/npc/204147
+					aion-npc-full-small
+					aion-npc-full-medium
+					aion-npc-full-large
+			*/
 
-			if(in_array($data['typ'], array("item", "npc", "spell")) && is_numeric($data['id'])) {
+			$data = @$this->string2array(htmlentities($content), "%url%/%type%/%id%");
 
-				$itemid = htmlentities($data['id']);
-				$typ = htmlentities($data['typ']);
-				$size = "aiondb-item-full-small";
-				$name = $typ ." #". $itemid;
+			if(in_array($data['type'], array('item', 'skill', 'recipe', 'npc')) && is_numeric($data['id'])) {
+
+				$url = htmlentities($data['url']);
+				$id = $data['id'];
+				$type = $data['type'];
+				$size = "aion-".$type."-full-small";
+				$name = $type ." #". $id;
 
 				if(!empty($openingTag['attributes'][0])) {
 					switch (htmlentities(trim($openingTag['attributes'][0]))) {
 						case "text":
-							$size = "aiondb-item-text";
+							$size = "aion-".$type."-text";
 							break;
 						case "small":
-							$size = "aiondb-item-full-small";
+							$size = "aion-".$type."-full-small";
 							break;
 						case "medium":
-							$size = "aiondb-item-full-medium";
+							$size = "aion-".$type."-full-medium";
 							break;
 						case "large":
-							$size = "aiondb-item-full-large";
+							$size = "aion-".$type."-full-large";
 							break;
 						default:
 							$name = htmlentities(trim($openingTag['attributes'][0]));
 					}
 				}
 
-				return '<a class="'.$size.'" href="http://www.aionarmory.com/'. $typ .'.aspx?id='. $itemid .'">['. $name .']</a>';
+				return '<a class="'.$size.'" href="'. $url .'/'. $type .'/'. $id .'">['. $name .']</a>';
 			} else {
 				return '<a href="'. htmlentities($content) .'">'. htmlentities($content) .'</a>';;
 			}

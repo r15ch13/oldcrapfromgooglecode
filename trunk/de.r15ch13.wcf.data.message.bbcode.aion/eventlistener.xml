@@ -5,7 +5,7 @@
     <eventlistener>
       <eventclassname>AbstractPage</eventclassname>
       <eventname>assignVariables</eventname>
-      <listenerclassfile>lib/system/event/listener/AionarmoryListener.class.php</listenerclassfile>
+      <listenerclassfile>lib/system/event/listener/AionDatabaseListener.class.php</listenerclassfile>
       <inherit>1</inherit>
     </eventlistener>
   </import>
