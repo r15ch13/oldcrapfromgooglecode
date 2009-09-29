@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="en">
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.aiondb.title"><![CDATA[Insert Item- & Spelllinks from Aiondatabase.com]]></item>
+		<item name="wcf.bbcode.aiondb.suffix"><![CDATA[en]]></item>
+	</category>
+</language>
