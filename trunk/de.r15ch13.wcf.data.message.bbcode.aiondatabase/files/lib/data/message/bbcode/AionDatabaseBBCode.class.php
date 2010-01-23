@@ -14,8 +14,8 @@ class AionDatabaseBBCode implements BBCode {
 			if(preg_match('/http\:\/\/[a-zA-Z]{0,4}.aiondatabase.com\/(item|skill|recipe|npc)\/(\d{0,10})/', StringUtil::encodeHtml($content), $data)) {
 
 				$url = $data[0];
-				$id = $data[2];
 				$type = $data[1];
+				$id = $data[2];
 				$size = "aion-".$type."-full-small";
 				$name = $type ." #". $id;
 
@@ -37,10 +37,9 @@ class AionDatabaseBBCode implements BBCode {
 							$name = StringUtil::encodeHtml(trim($openingTag['attributes'][0]));
 					}
 				}
-
-				return '<a class="'.$size.'" href="'. $url .'/'. $type .'/'. $id .'">['. $name .']</a>';
+				return '<a class="'.$size.'" href="'. $url .'">['. $name .']</a>';
 			} else {
-				return '<a href="'. StringUtil::encodeHtml($content) .'">'. StringUtil::encodeHtml($content) .'</a>';;
+				return '<a href="'. StringUtil::encodeHtml($content) .'">'. StringUtil::encodeHtml($content) .'</a>';
 			}
 
 		}
