@@ -1,1 +1,0 @@
-<?xml version="1.0"?><!DOCTYPE data SYSTEM "http://www.woltlab.com/DTDs/acpMenu.dtd"><data>	<import>		<acpmenuitem name="wcf.acp.menu.link.content.wgr.manage">			<parent>wcf.acp.menu.link.content</parent>			<showorder>1</showorder>			<link>index.php?form=WGR</link>		</acpmenuitem>	</import></data>
