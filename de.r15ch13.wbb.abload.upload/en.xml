@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
-<language languagecode="en">
-	<category name="wcf.abload">
-		<item name="wcf.abload.title"><![CDATA[Image-Upload]]></item>
-		<item name="wcf.abload.info"><![CDATA[allowed: jpg, jpeg, png, gif, bmp, tif, tiff < 10MB]]></item>
-		<item name="wcf.abload.notice"><![CDATA[Notice, that the Image-Address would be open in a new Window]]></item>
-	</category>
-</language>

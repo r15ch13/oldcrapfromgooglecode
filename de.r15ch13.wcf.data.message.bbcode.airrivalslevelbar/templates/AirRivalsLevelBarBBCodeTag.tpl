@@ -1,1 +1,0 @@
-<span class="AirRivalsLevelBar">{$level} <span style="color: green;">{$currentpercent}</span><span style="color: red;">{$neededpercent}</span> {$nextlevel}</span>
