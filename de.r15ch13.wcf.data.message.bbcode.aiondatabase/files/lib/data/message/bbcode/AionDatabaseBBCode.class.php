@@ -11,13 +11,15 @@ class AionDatabaseBBCode implements BBCode {
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
 		if (!empty($content)) {
-			if(preg_match('/http\:\/\/[a-zA-Z]{0,4}.aiondatabase.com\/(item|skill|recipe|npc)\/(\d{0,10})/', StringUtil::encodeHtml($content), $data)) {
+			if(preg_match('/http\:\/\/([a-zA-Z]{0,3})[.]{0,1}aiondatabase.com\/(item|skill|recipe|npc)\/(\d{0,10})/', StringUtil::encodeHtml($content), $data)) {
 
 				$url = $data[0];
-				$type = $data[1];
-				$id = $data[2];
+				$lang = $data[1];
+				$type = $data[2];
+				$item = $data[3];
+
 				$size = "aion-".$type."-full-small";
-				$name = $type ." #". $id;
+				$name = $type ." #". $item;
 
 				if(!empty($openingTag['attributes'][0])) {
 					switch (StringUtil::encodeHtml(trim($openingTag['attributes'][0]))) {
@@ -37,7 +39,12 @@ class AionDatabaseBBCode implements BBCode {
 							$name = StringUtil::encodeHtml(trim($openingTag['attributes'][0]));
 					}
 				}
-				return '<a class="'.$size.'" href="'. $url .'">['. $name .']</a>';
+
+				if(empty($lang)) {
+					$lang = "www";
+				}
+
+				return '<a class="'.$size.'" href="http://'. $lang .'.aiondatabase.com/'. $type .'/'. $item .'">['. $name .']</a>';
 			} else {
 				return '<a href="'. StringUtil::encodeHtml($content) .'">'. StringUtil::encodeHtml($content) .'</a>';
 			}
