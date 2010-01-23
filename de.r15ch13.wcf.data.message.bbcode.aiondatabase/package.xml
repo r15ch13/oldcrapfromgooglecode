@@ -7,10 +7,10 @@
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.message.bbcode</plugin>
 		<isunique>1</isunique>
-		<version>1.0.1</version>
-		<!-- $y$1.0.1# -->
+		<version>1.0.2</version>
+		<!-- $y$1.0.2# -->
 		<packagedescription>Ein BBCode um Item- und Spelldaten von Aiondatabase.com anzeigen zulassen.</packagedescription>
-		<date>2009-09-29</date>
+		<date>2009-10-14</date>
 	</packageinformation>
 
 	<authorinformation>
