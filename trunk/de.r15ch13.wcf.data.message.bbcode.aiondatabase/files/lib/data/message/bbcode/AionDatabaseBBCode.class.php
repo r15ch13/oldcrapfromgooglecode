@@ -10,8 +10,8 @@ class AionDatabaseBBCode implements BBCode {
 	 * @see BBCode::getParsedTag()
 	 */
 	public function getParsedTag($openingTag, $content, $closingTag, BBCodeParser $parser) {
-		if (!empty($content)) {
-			if(preg_match('/http\:\/\/([a-zA-Z]{0,3})[.]{0,1}aiondatabase.com\/(item|skill|recipe|npc)\/(\d{0,10})/', StringUtil::encodeHtml($content), $data)) {
+		if(!empty($content)) {
+			if(preg_match('#^http://(www|de|kr|jp|cn|fr|ru|)[.]{0,1}aiondatabase.com/(item|skill|recipe|gathersource|npc)/(\d+)#', $content, $data)) {
 				/**
 				 * $data[0] = URL
 				 * $data[1] = Language
