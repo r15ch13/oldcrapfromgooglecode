@@ -9,9 +9,9 @@ require_once("functions.inc.php");
 
 //MySQL Zugangsdaten:
 $host  = "localhost";
-$user  = "web5_1";
-$pass  = "KMdw4sGyvGwXuPurZmuD";
-$database = "usr_web5_1";
+$user  = "user";
+$pass  = "pass";
+$database = "dbname";
 
 $eveIconPath = "resource/icons/icons_items_png/32_32/";
 $eveIconSize = 20;
